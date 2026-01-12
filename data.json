@@ -1,66 +1,449 @@
 {
   "currentMonth": 11,
   "currentYear": 2025,
-  "tenants": [],
-  "bills": [],
-  "meterReadings": {},
-  "invoices": [],
-  "activityTypes": [
+  "tenants": [
+    {
+      "id": 1,
+      "name": "Кафе \"Прага\"",
+      "area": 280,
+      "activityTypeId": 2,
+      "electricityMeterId": null,
+      "waterMeterId": null,
+      "groupMeterId": "1611",
+      "phone": "",
+      "email": ""
+    },
     {
       "id": 2,
-      "name": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµ, ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½",
-      "coefficient": 1.3,
-      "dayType": "extended",
-      "description": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ²ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ´ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ²ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¿ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ"
+      "name": "Бьюти салон",
+      "area": 92,
+      "activityTypeId": 5,
+      "electricityMeterId": null,
+      "waterMeterId": null,
+      "groupMeterId": null,
+      "phone": "",
+      "email": ""
     },
     {
       "id": 3,
-      "name": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ²ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ²ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ",
-      "coefficient": 1.2,
-      "dayType": "extended",
-      "description": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¶ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ²ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ²ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¹"
+      "name": "Детская зона \"Чудеса\"",
+      "area": 92,
+      "activityTypeId": 5,
+      "electricityMeterId": null,
+      "waterMeterId": null,
+      "groupMeterId": null,
+      "phone": "",
+      "email": ""
     },
     {
       "id": 4,
-      "name": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ²ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¹ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°",
-      "coefficient": 1.2,
-      "dayType": "24h",
-      "description": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ²ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¹ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ° ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¶ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ²ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ"
+      "name": "Магазин копченостей",
+      "area": 75,
+      "activityTypeId": 5,
+      "electricityMeterId": null,
+      "waterMeterId": null,
+      "groupMeterId": "1611",
+      "phone": "",
+      "email": ""
     },
     {
       "id": 5,
-      "name": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ",
-      "coefficient": 1,
-      "dayType": "normal",
-      "description": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµ ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¿ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ"
+      "name": "Автомойка самообслуживания 1-2 пост",
+      "area": 100,
+      "activityTypeId": 4,
+      "electricityMeterId": null,
+      "waterMeterId": null,
+      "groupMeterId": "9111",
+      "phone": "",
+      "email": ""
     },
     {
       "id": 6,
-      "name": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ´",
-      "coefficient": 0.8,
-      "dayType": "normal",
-      "description": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ´ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµ ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¿ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ"
+      "name": "Детейлинг мойка 1-2 пост",
+      "area": 100,
+      "activityTypeId": 9,
+      "electricityMeterId": null,
+      "waterMeterId": null,
+      "groupMeterId": "9111",
+      "phone": "",
+      "email": ""
     },
     {
       "id": 7,
-      "name": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ",
-      "coefficient": 1.1,
-      "dayType": "extended",
-      "description": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ, ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ"
+      "name": "Автомойка самообслуживания 3 пост",
+      "area": 40,
+      "activityTypeId": 4,
+      "electricityMeterId": null,
+      "waterMeterId": null,
+      "groupMeterId": "9111",
+      "phone": "",
+      "email": ""
     },
     {
       "id": 8,
-      "name": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¤ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ-ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ",
-      "coefficient": 1.3,
-      "dayType": "extended",
-      "description": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¿ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ²ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¹ ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ·ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ», ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¶ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ"
+      "name": "Магазин автозапчасти",
+      "area": 100,
+      "activityTypeId": 5,
+      "electricityMeterId": "8513",
+      "waterMeterId": null,
+      "groupMeterId": null,
+      "phone": "",
+      "email": ""
     },
     {
       "id": 9,
-      "name": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¹ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ½ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³ ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¹ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°",
+      "name": "Автомойка самообслуживания 4-5 пост",
+      "area": 100,
+      "activityTypeId": 4,
+      "electricityMeterId": null,
+      "waterMeterId": null,
+      "groupMeterId": "3914",
+      "phone": "",
+      "email": ""
+    },
+    {
+      "id": 10,
+      "name": "Детейлинг 4-5 бокс",
+      "area": 84,
+      "activityTypeId": 9,
+      "electricityMeterId": null,
+      "waterMeterId": null,
+      "groupMeterId": "3914",
+      "phone": "",
+      "email": ""
+    },
+    {
+      "id": 11,
+      "name": "Автосервис",
+      "area": 450,
+      "activityTypeId": 3,
+      "electricityMeterId": "1011",
+      "waterMeterId": null,
+      "groupMeterId": null,
+      "phone": "",
+      "email": ""
+    }
+  ],
+  "bills": [
+    {
+      "id": 3,
+      "date": "2026-01-10",
+      "billType": "general",
+      "type": "gas",
+      "amount": 103445.37,
+      "volume": 9,
+      "unit": "ед.",
+      "description": "",
+      "month": 11,
+      "year": 2025,
+      "tenantId": null
+    },
+    {
+      "id": 4,
+      "date": "2026-01-10",
+      "billType": "general",
+      "type": "electricity",
+      "amount": 135000,
+      "volume": 12000,
+      "unit": "ед.",
+      "description": "",
+      "month": 11,
+      "year": 2025,
+      "tenantId": null
+    }
+  ],
+  "meterReadings": {
+    "2026-0": {
+      "electricity": {},
+      "water": {},
+      "groups": {}
+    },
+    "2025-11": {
+      "electricity": {
+        "1011": 78089,
+        "8513": 22775
+      },
+      "water": {},
+      "groups": {
+        "1611": 599068,
+        "3914": 84065,
+        "9111": 155256
+      }
+    },
+    "2025-10": {
+      "electricity": {
+        "1011": 76365,
+        "8513": 22470
+      },
+      "water": {},
+      "groups": {
+        "1611": 595816,
+        "3914": 82481,
+        "9111": 152263
+      }
+    },
+    "2026-1": {
+      "electricity": {},
+      "water": {},
+      "groups": {}
+    }
+  },
+  "invoices": [
+    {
+      "id": 1768137831833,
+      "tenantId": 1,
+      "month": 11,
+      "year": 2025,
+      "createdDate": "2026-01-11",
+      "totalAmount": 47285.81,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 24378.3362552316,
+        "gas": 21358.909627367135,
+        "water": 0,
+        "individual": 0,
+        "mop": 1548.564447159438,
+        "other": 0
+      },
+      "breakdown": "\n                <div style=\"font-family: Arial, sans-serif; padding: 20px;\">\n                    <h2 style=\"color: #2563eb; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        Счет за коммунальные услуги\n                    </h2>\n                    <div style=\"margin-bottom: 20px;\">\n                        <p><strong>Арендатор:</strong> Кафе \"Прага\"</p>\n                        <p><strong>Период:</strong> Декабрь 2025</p>\n                        <p><strong>Дата формирования:</strong> 11.01.2026</p>\n                        <p><strong>Фактическая площадь:</strong> 280 м²</p>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px; background-color: #f8fafc;\">\n                        <tbody>\n                            \n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Вид деятельности</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Кафе, ресторан (коэфф. 1.3)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Режим работы</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Продленный день (коэфф. 1.3)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Итоговый коэффициент</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>1.69</strong></td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Приведенная площадь</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>473.20 м²</strong> (280 м² × 1.69)</td>\n                </tr>\n            \n                        </tbody>\n                    </table>\n                    \n                    <div style=\"background-color: #f8fafc; padding: 10px; border-radius: 5px; margin: 10px 0; font-size: 0.9em;\">\n                        <p><strong>Методология расчета:</strong></p>\n                        <ul style=\"margin: 5px 0; padding-left: 20px;\">\n                            <li>Электроэнергия: расчет по показаниям счетчика с учетом потерь в сетях (5%)</li>\n                            <li>Газоснабжение: распределение по приведенной площади (фактическая площадь × итоговый коэффициент)</li>\n                            <li>Водоснабжение: по счетчику или по площади</li>\n                            <li>Индивидуальные услуги: прямые счета конкретному арендатору</li>\n                            <li>МОП: распределение по приведенной площади</li>\n                        </ul>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px;\">\n                        <thead>\n                            <tr style=\"background-color: #f1f5f9;\">\n                                <th style=\"padding: 10px; text-align: left; border: 1px solid #e2e8f0;\">Услуга</th>\n                                <th style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Электроэнергия (с учетом счетчиков и потерь)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">24 378,34 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Газоснабжение (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">21 358,91 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Водоснабжение и водоотведение</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">0,00 руб.</td>\n                            </tr>\n                            \n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Доля МОП (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">1 548,56 руб.</td>\n                            </tr>\n                            \n                            <tr style=\"font-weight: bold; background-color: #f8fafc;\">\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0; color: #2563eb;\">\n                                    47 285,81 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </div>\n            "
+    },
+    {
+      "id": 1768137831867,
+      "tenantId": 2,
+      "month": 11,
+      "year": 2025,
+      "createdDate": "2026-01-11",
+      "totalAmount": 4724.66,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 270.9660528841958,
+        "gas": 4152.619792302993,
+        "water": 0,
+        "individual": 0,
+        "mop": 301.07339209355086,
+        "other": 0
+      },
+      "breakdown": "\n                <div style=\"font-family: Arial, sans-serif; padding: 20px;\">\n                    <h2 style=\"color: #2563eb; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        Счет за коммунальные услуги\n                    </h2>\n                    <div style=\"margin-bottom: 20px;\">\n                        <p><strong>Арендатор:</strong> Бьюти салон</p>\n                        <p><strong>Период:</strong> Декабрь 2025</p>\n                        <p><strong>Дата формирования:</strong> 11.01.2026</p>\n                        <p><strong>Фактическая площадь:</strong> 92 м²</p>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px; background-color: #f8fafc;\">\n                        <tbody>\n                            \n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Вид деятельности</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Офис (коэфф. 1)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Режим работы</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Нормальный день (коэфф. 1)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Итоговый коэффициент</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>1.00</strong></td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Приведенная площадь</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>92.00 м²</strong> (92 м² × 1.00)</td>\n                </tr>\n            \n                        </tbody>\n                    </table>\n                    \n                    <div style=\"background-color: #f8fafc; padding: 10px; border-radius: 5px; margin: 10px 0; font-size: 0.9em;\">\n                        <p><strong>Методология расчета:</strong></p>\n                        <ul style=\"margin: 5px 0; padding-left: 20px;\">\n                            <li>Электроэнергия: расчет по показаниям счетчика с учетом потерь в сетях (5%)</li>\n                            <li>Газоснабжение: распределение по приведенной площади (фактическая площадь × итоговый коэффициент)</li>\n                            <li>Водоснабжение: по счетчику или по площади</li>\n                            <li>Индивидуальные услуги: прямые счета конкретному арендатору</li>\n                            <li>МОП: распределение по приведенной площади</li>\n                        </ul>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px;\">\n                        <thead>\n                            <tr style=\"background-color: #f1f5f9;\">\n                                <th style=\"padding: 10px; text-align: left; border: 1px solid #e2e8f0;\">Услуга</th>\n                                <th style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Электроэнергия (с учетом счетчиков и потерь)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">270,97 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Газоснабжение (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">4 152,62 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Водоснабжение и водоотведение</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">0,00 руб.</td>\n                            </tr>\n                            \n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Доля МОП (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">301,07 руб.</td>\n                            </tr>\n                            \n                            <tr style=\"font-weight: bold; background-color: #f8fafc;\">\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0; color: #2563eb;\">\n                                    4 724,66 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </div>\n            "
+    },
+    {
+      "id": 1768137832450,
+      "tenantId": 3,
+      "month": 11,
+      "year": 2025,
+      "createdDate": "2026-01-11",
+      "totalAmount": 4724.66,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 270.9660528841958,
+        "gas": 4152.619792302993,
+        "water": 0,
+        "individual": 0,
+        "mop": 301.07339209355086,
+        "other": 0
+      },
+      "breakdown": "\n                <div style=\"font-family: Arial, sans-serif; padding: 20px;\">\n                    <h2 style=\"color: #2563eb; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        Счет за коммунальные услуги\n                    </h2>\n                    <div style=\"margin-bottom: 20px;\">\n                        <p><strong>Арендатор:</strong> Детская зона \"Чудеса\"</p>\n                        <p><strong>Период:</strong> Декабрь 2025</p>\n                        <p><strong>Дата формирования:</strong> 11.01.2026</p>\n                        <p><strong>Фактическая площадь:</strong> 92 м²</p>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px; background-color: #f8fafc;\">\n                        <tbody>\n                            \n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Вид деятельности</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Офис (коэфф. 1)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Режим работы</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Нормальный день (коэфф. 1)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Итоговый коэффициент</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>1.00</strong></td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Приведенная площадь</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>92.00 м²</strong> (92 м² × 1.00)</td>\n                </tr>\n            \n                        </tbody>\n                    </table>\n                    \n                    <div style=\"background-color: #f8fafc; padding: 10px; border-radius: 5px; margin: 10px 0; font-size: 0.9em;\">\n                        <p><strong>Методология расчета:</strong></p>\n                        <ul style=\"margin: 5px 0; padding-left: 20px;\">\n                            <li>Электроэнергия: расчет по показаниям счетчика с учетом потерь в сетях (5%)</li>\n                            <li>Газоснабжение: распределение по приведенной площади (фактическая площадь × итоговый коэффициент)</li>\n                            <li>Водоснабжение: по счетчику или по площади</li>\n                            <li>Индивидуальные услуги: прямые счета конкретному арендатору</li>\n                            <li>МОП: распределение по приведенной площади</li>\n                        </ul>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px;\">\n                        <thead>\n                            <tr style=\"background-color: #f1f5f9;\">\n                                <th style=\"padding: 10px; text-align: left; border: 1px solid #e2e8f0;\">Услуга</th>\n                                <th style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Электроэнергия (с учетом счетчиков и потерь)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">270,97 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Газоснабжение (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">4 152,62 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Водоснабжение и водоотведение</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">0,00 руб.</td>\n                            </tr>\n                            \n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Доля МОП (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">301,07 руб.</td>\n                            </tr>\n                            \n                            <tr style=\"font-weight: bold; background-color: #f8fafc;\">\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0; color: #2563eb;\">\n                                    4 724,66 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </div>\n            "
+    },
+    {
+      "id": 1768137832246,
+      "tenantId": 4,
+      "month": 11,
+      "year": 2025,
+      "createdDate": "2026-01-11",
+      "totalAmount": 17452,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 13821.267985976183,
+        "gas": 3385.287874160048,
+        "water": 0,
+        "individual": 0,
+        "mop": 245.4402652936556,
+        "other": 0
+      },
+      "breakdown": "\n                <div style=\"font-family: Arial, sans-serif; padding: 20px;\">\n                    <h2 style=\"color: #2563eb; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        Счет за коммунальные услуги\n                    </h2>\n                    <div style=\"margin-bottom: 20px;\">\n                        <p><strong>Арендатор:</strong> Магазин копченостей</p>\n                        <p><strong>Период:</strong> Декабрь 2025</p>\n                        <p><strong>Дата формирования:</strong> 11.01.2026</p>\n                        <p><strong>Фактическая площадь:</strong> 75 м²</p>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px; background-color: #f8fafc;\">\n                        <tbody>\n                            \n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Вид деятельности</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Офис (коэфф. 1)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Режим работы</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Нормальный день (коэфф. 1)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Итоговый коэффициент</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>1.00</strong></td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Приведенная площадь</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>75.00 м²</strong> (75 м² × 1.00)</td>\n                </tr>\n            \n                        </tbody>\n                    </table>\n                    \n                    <div style=\"background-color: #f8fafc; padding: 10px; border-radius: 5px; margin: 10px 0; font-size: 0.9em;\">\n                        <p><strong>Методология расчета:</strong></p>\n                        <ul style=\"margin: 5px 0; padding-left: 20px;\">\n                            <li>Электроэнергия: расчет по показаниям счетчика с учетом потерь в сетях (5%)</li>\n                            <li>Газоснабжение: распределение по приведенной площади (фактическая площадь × итоговый коэффициент)</li>\n                            <li>Водоснабжение: по счетчику или по площади</li>\n                            <li>Индивидуальные услуги: прямые счета конкретному арендатору</li>\n                            <li>МОП: распределение по приведенной площади</li>\n                        </ul>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px;\">\n                        <thead>\n                            <tr style=\"background-color: #f1f5f9;\">\n                                <th style=\"padding: 10px; text-align: left; border: 1px solid #e2e8f0;\">Услуга</th>\n                                <th style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Электроэнергия (с учетом счетчиков и потерь)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">13 821,27 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Газоснабжение (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">3 385,29 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Водоснабжение и водоотведение</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">0,00 руб.</td>\n                            </tr>\n                            \n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Доля МОП (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">245,44 руб.</td>\n                            </tr>\n                            \n                            <tr style=\"font-weight: bold; background-color: #f8fafc;\">\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0; color: #2563eb;\">\n                                    17 452,00 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </div>\n            "
+    },
+    {
+      "id": 1768137832012,
+      "tenantId": 5,
+      "month": 11,
+      "year": 2025,
+      "createdDate": "2026-01-11",
+      "totalAmount": 24033.94,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 13577.444512836888,
+        "gas": 9749.62907758094,
+        "water": 0,
+        "individual": 0,
+        "mop": 706.8679640457282,
+        "other": 0
+      },
+      "breakdown": "\n                <div style=\"font-family: Arial, sans-serif; padding: 20px;\">\n                    <h2 style=\"color: #2563eb; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        Счет за коммунальные услуги\n                    </h2>\n                    <div style=\"margin-bottom: 20px;\">\n                        <p><strong>Арендатор:</strong> Автомойка самообслуживания 1-2 пост</p>\n                        <p><strong>Период:</strong> Декабрь 2025</p>\n                        <p><strong>Дата формирования:</strong> 11.01.2026</p>\n                        <p><strong>Фактическая площадь:</strong> 100 м²</p>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px; background-color: #f8fafc;\">\n                        <tbody>\n                            \n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Вид деятельности</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Автомойка (коэфф. 1.2)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Режим работы</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Круглосуточно (коэфф. 1.8)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Итоговый коэффициент</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>2.16</strong></td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Приведенная площадь</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>216.00 м²</strong> (100 м² × 2.16)</td>\n                </tr>\n            \n                        </tbody>\n                    </table>\n                    \n                    <div style=\"background-color: #f8fafc; padding: 10px; border-radius: 5px; margin: 10px 0; font-size: 0.9em;\">\n                        <p><strong>Методология расчета:</strong></p>\n                        <ul style=\"margin: 5px 0; padding-left: 20px;\">\n                            <li>Электроэнергия: расчет по показаниям счетчика с учетом потерь в сетях (5%)</li>\n                            <li>Газоснабжение: распределение по приведенной площади (фактическая площадь × итоговый коэффициент)</li>\n                            <li>Водоснабжение: по счетчику или по площади</li>\n                            <li>Индивидуальные услуги: прямые счета конкретному арендатору</li>\n                            <li>МОП: распределение по приведенной площади</li>\n                        </ul>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px;\">\n                        <thead>\n                            <tr style=\"background-color: #f1f5f9;\">\n                                <th style=\"padding: 10px; text-align: left; border: 1px solid #e2e8f0;\">Услуга</th>\n                                <th style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Электроэнергия (с учетом счетчиков и потерь)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">13 577,44 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Газоснабжение (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">9 749,63 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Водоснабжение и водоотведение</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">0,00 руб.</td>\n                            </tr>\n                            \n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Доля МОП (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">706,87 руб.</td>\n                            </tr>\n                            \n                            <tr style=\"font-weight: bold; background-color: #f8fafc;\">\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0; color: #2563eb;\">\n                                    24 033,94 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </div>\n            "
+    },
+    {
+      "id": 1768137832279,
+      "tenantId": 6,
+      "month": 11,
+      "year": 2025,
+      "createdDate": "2026-01-11",
+      "totalAmount": 14464.87,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 8171.610123466643,
+        "gas": 5867.8323152107505,
+        "water": 0,
+        "individual": 0,
+        "mop": 425.4297931756698,
+        "other": 0
+      },
+      "breakdown": "\n                <div style=\"font-family: Arial, sans-serif; padding: 20px;\">\n                    <h2 style=\"color: #2563eb; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        Счет за коммунальные услуги\n                    </h2>\n                    <div style=\"margin-bottom: 20px;\">\n                        <p><strong>Арендатор:</strong> Детейлинг мойка 1-2 пост</p>\n                        <p><strong>Период:</strong> Декабрь 2025</p>\n                        <p><strong>Дата формирования:</strong> 11.01.2026</p>\n                        <p><strong>Фактическая площадь:</strong> 100 м²</p>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px; background-color: #f8fafc;\">\n                        <tbody>\n                            \n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Вид деятельности</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Детейлинг мойка (коэфф. 1.3)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Режим работы</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Нормальный день (коэфф. 1)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Итоговый коэффициент</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>1.30</strong></td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Приведенная площадь</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>130.00 м²</strong> (100 м² × 1.30)</td>\n                </tr>\n            \n                        </tbody>\n                    </table>\n                    \n                    <div style=\"background-color: #f8fafc; padding: 10px; border-radius: 5px; margin: 10px 0; font-size: 0.9em;\">\n                        <p><strong>Методология расчета:</strong></p>\n                        <ul style=\"margin: 5px 0; padding-left: 20px;\">\n                            <li>Электроэнергия: расчет по показаниям счетчика с учетом потерь в сетях (5%)</li>\n                            <li>Газоснабжение: распределение по приведенной площади (фактическая площадь × итоговый коэффициент)</li>\n                            <li>Водоснабжение: по счетчику или по площади</li>\n                            <li>Индивидуальные услуги: прямые счета конкретному арендатору</li>\n                            <li>МОП: распределение по приведенной площади</li>\n                        </ul>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px;\">\n                        <thead>\n                            <tr style=\"background-color: #f1f5f9;\">\n                                <th style=\"padding: 10px; text-align: left; border: 1px solid #e2e8f0;\">Услуга</th>\n                                <th style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Электроэнергия (с учетом счетчиков и потерь)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">8 171,61 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Газоснабжение (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">5 867,83 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Водоснабжение и водоотведение</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">0,00 руб.</td>\n                            </tr>\n                            \n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Доля МОП (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">425,43 руб.</td>\n                            </tr>\n                            \n                            <tr style=\"font-weight: bold; background-color: #f8fafc;\">\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0; color: #2563eb;\">\n                                    14 464,87 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </div>\n            "
+    },
+    {
+      "id": 1768137832017,
+      "tenantId": 7,
+      "month": 11,
+      "year": 2025,
+      "createdDate": "2026-01-11",
+      "totalAmount": 17378.33,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 13195.735812252195,
+        "gas": 3899.851631032376,
+        "water": 0,
+        "individual": 0,
+        "mop": 282.7471856182913,
+        "other": 0
+      },
+      "breakdown": "\n                <div style=\"font-family: Arial, sans-serif; padding: 20px;\">\n                    <h2 style=\"color: #2563eb; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        Счет за коммунальные услуги\n                    </h2>\n                    <div style=\"margin-bottom: 20px;\">\n                        <p><strong>Арендатор:</strong> Автомойка самообслуживания 3 пост</p>\n                        <p><strong>Период:</strong> Декабрь 2025</p>\n                        <p><strong>Дата формирования:</strong> 11.01.2026</p>\n                        <p><strong>Фактическая площадь:</strong> 40 м²</p>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px; background-color: #f8fafc;\">\n                        <tbody>\n                            \n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Вид деятельности</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Автомойка (коэфф. 1.2)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Режим работы</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Круглосуточно (коэфф. 1.8)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Итоговый коэффициент</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>2.16</strong></td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Приведенная площадь</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>86.40 м²</strong> (40 м² × 2.16)</td>\n                </tr>\n            \n                        </tbody>\n                    </table>\n                    \n                    <div style=\"background-color: #f8fafc; padding: 10px; border-radius: 5px; margin: 10px 0; font-size: 0.9em;\">\n                        <p><strong>Методология расчета:</strong></p>\n                        <ul style=\"margin: 5px 0; padding-left: 20px;\">\n                            <li>Электроэнергия: расчет по показаниям счетчика с учетом потерь в сетях (5%)</li>\n                            <li>Газоснабжение: распределение по приведенной площади (фактическая площадь × итоговый коэффициент)</li>\n                            <li>Водоснабжение: по счетчику или по площади</li>\n                            <li>Индивидуальные услуги: прямые счета конкретному арендатору</li>\n                            <li>МОП: распределение по приведенной площади</li>\n                        </ul>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px;\">\n                        <thead>\n                            <tr style=\"background-color: #f1f5f9;\">\n                                <th style=\"padding: 10px; text-align: left; border: 1px solid #e2e8f0;\">Услуга</th>\n                                <th style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Электроэнергия (с учетом счетчиков и потерь)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">13 195,74 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Газоснабжение (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">3 899,85 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Водоснабжение и водоотведение</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">0,00 руб.</td>\n                            </tr>\n                            \n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Доля МОП (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">282,75 руб.</td>\n                            </tr>\n                            \n                            <tr style=\"font-weight: bold; background-color: #f8fafc;\">\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0; color: #2563eb;\">\n                                    17 378,33 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </div>\n            "
+    },
+    {
+      "id": 1768137831895,
+      "tenantId": 8,
+      "month": 11,
+      "year": 2025,
+      "createdDate": "2026-01-11",
+      "totalAmount": 8566.75,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 3725.7783183523866,
+        "gas": 4513.717165546732,
+        "water": 0,
+        "individual": 0,
+        "mop": 327.2536870582075,
+        "other": 0
+      },
+      "breakdown": "\n                <div style=\"font-family: Arial, sans-serif; padding: 20px;\">\n                    <h2 style=\"color: #2563eb; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        Счет за коммунальные услуги\n                    </h2>\n                    <div style=\"margin-bottom: 20px;\">\n                        <p><strong>Арендатор:</strong> Магазин автозапчасти</p>\n                        <p><strong>Период:</strong> Декабрь 2025</p>\n                        <p><strong>Дата формирования:</strong> 11.01.2026</p>\n                        <p><strong>Фактическая площадь:</strong> 100 м²</p>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px; background-color: #f8fafc;\">\n                        <tbody>\n                            \n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Вид деятельности</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Офис (коэфф. 1)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Режим работы</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Нормальный день (коэфф. 1)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Итоговый коэффициент</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>1.00</strong></td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Приведенная площадь</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>100.00 м²</strong> (100 м² × 1.00)</td>\n                </tr>\n            \n                        </tbody>\n                    </table>\n                    \n                    <div style=\"background-color: #f8fafc; padding: 10px; border-radius: 5px; margin: 10px 0; font-size: 0.9em;\">\n                        <p><strong>Методология расчета:</strong></p>\n                        <ul style=\"margin: 5px 0; padding-left: 20px;\">\n                            <li>Электроэнергия: расчет по показаниям счетчика с учетом потерь в сетях (5%)</li>\n                            <li>Газоснабжение: распределение по приведенной площади (фактическая площадь × итоговый коэффициент)</li>\n                            <li>Водоснабжение: по счетчику или по площади</li>\n                            <li>Индивидуальные услуги: прямые счета конкретному арендатору</li>\n                            <li>МОП: распределение по приведенной площади</li>\n                        </ul>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px;\">\n                        <thead>\n                            <tr style=\"background-color: #f1f5f9;\">\n                                <th style=\"padding: 10px; text-align: left; border: 1px solid #e2e8f0;\">Услуга</th>\n                                <th style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Электроэнергия (с учетом счетчиков и потерь)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">3 725,78 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Газоснабжение (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">4 513,72 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Водоснабжение и водоотведение</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">0,00 руб.</td>\n                            </tr>\n                            \n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Доля МОП (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">327,25 руб.</td>\n                            </tr>\n                            \n                            <tr style=\"font-weight: bold; background-color: #f8fafc;\">\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0; color: #2563eb;\">\n                                    8 566,75 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </div>\n            "
+    },
+    {
+      "id": 1768137832222,
+      "tenantId": 9,
+      "month": 11,
+      "year": 2025,
+      "createdDate": "2026-01-11",
+      "totalAmount": 22217.3,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 11760.805445097805,
+        "gas": 9749.62907758094,
+        "water": 0,
+        "individual": 0,
+        "mop": 706.8679640457282,
+        "other": 0
+      },
+      "breakdown": "\n                <div style=\"font-family: Arial, sans-serif; padding: 20px;\">\n                    <h2 style=\"color: #2563eb; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        Счет за коммунальные услуги\n                    </h2>\n                    <div style=\"margin-bottom: 20px;\">\n                        <p><strong>Арендатор:</strong> Автомойка самообслуживания 4-5 пост</p>\n                        <p><strong>Период:</strong> Декабрь 2025</p>\n                        <p><strong>Дата формирования:</strong> 11.01.2026</p>\n                        <p><strong>Фактическая площадь:</strong> 100 м²</p>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px; background-color: #f8fafc;\">\n                        <tbody>\n                            \n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Вид деятельности</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Автомойка (коэфф. 1.2)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Режим работы</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Круглосуточно (коэфф. 1.8)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Итоговый коэффициент</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>2.16</strong></td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Приведенная площадь</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>216.00 м²</strong> (100 м² × 2.16)</td>\n                </tr>\n            \n                        </tbody>\n                    </table>\n                    \n                    <div style=\"background-color: #f8fafc; padding: 10px; border-radius: 5px; margin: 10px 0; font-size: 0.9em;\">\n                        <p><strong>Методология расчета:</strong></p>\n                        <ul style=\"margin: 5px 0; padding-left: 20px;\">\n                            <li>Электроэнергия: расчет по показаниям счетчика с учетом потерь в сетях (5%)</li>\n                            <li>Газоснабжение: распределение по приведенной площади (фактическая площадь × итоговый коэффициент)</li>\n                            <li>Водоснабжение: по счетчику или по площади</li>\n                            <li>Индивидуальные услуги: прямые счета конкретному арендатору</li>\n                            <li>МОП: распределение по приведенной площади</li>\n                        </ul>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px;\">\n                        <thead>\n                            <tr style=\"background-color: #f1f5f9;\">\n                                <th style=\"padding: 10px; text-align: left; border: 1px solid #e2e8f0;\">Услуга</th>\n                                <th style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Электроэнергия (с учетом счетчиков и потерь)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">11 760,81 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Газоснабжение (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">9 749,63 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Водоснабжение и водоотведение</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">0,00 руб.</td>\n                            </tr>\n                            \n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Доля МОП (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">706,87 руб.</td>\n                            </tr>\n                            \n                            <tr style=\"font-weight: bold; background-color: #f8fafc;\">\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0; color: #2563eb;\">\n                                    22 217,30 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </div>\n            "
+    },
+    {
+      "id": 1768137832322,
+      "tenantId": 10,
+      "month": 11,
+      "year": 2025,
+      "createdDate": "2026-01-11",
+      "totalAmount": 12303.34,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 7017.000646184159,
+        "gas": 4928.979144777031,
+        "water": 0,
+        "individual": 0,
+        "mop": 357.36102626756264,
+        "other": 0
+      },
+      "breakdown": "\n                <div style=\"font-family: Arial, sans-serif; padding: 20px;\">\n                    <h2 style=\"color: #2563eb; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        Счет за коммунальные услуги\n                    </h2>\n                    <div style=\"margin-bottom: 20px;\">\n                        <p><strong>Арендатор:</strong> Детейлинг 4-5 бокс</p>\n                        <p><strong>Период:</strong> Декабрь 2025</p>\n                        <p><strong>Дата формирования:</strong> 11.01.2026</p>\n                        <p><strong>Фактическая площадь:</strong> 84 м²</p>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px; background-color: #f8fafc;\">\n                        <tbody>\n                            \n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Вид деятельности</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Детейлинг мойка (коэфф. 1.3)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Режим работы</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Нормальный день (коэфф. 1)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Итоговый коэффициент</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>1.30</strong></td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Приведенная площадь</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>109.20 м²</strong> (84 м² × 1.30)</td>\n                </tr>\n            \n                        </tbody>\n                    </table>\n                    \n                    <div style=\"background-color: #f8fafc; padding: 10px; border-radius: 5px; margin: 10px 0; font-size: 0.9em;\">\n                        <p><strong>Методология расчета:</strong></p>\n                        <ul style=\"margin: 5px 0; padding-left: 20px;\">\n                            <li>Электроэнергия: расчет по показаниям счетчика с учетом потерь в сетях (5%)</li>\n                            <li>Газоснабжение: распределение по приведенной площади (фактическая площадь × итоговый коэффициент)</li>\n                            <li>Водоснабжение: по счетчику или по площади</li>\n                            <li>Индивидуальные услуги: прямые счета конкретному арендатору</li>\n                            <li>МОП: распределение по приведенной площади</li>\n                        </ul>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px;\">\n                        <thead>\n                            <tr style=\"background-color: #f1f5f9;\">\n                                <th style=\"padding: 10px; text-align: left; border: 1px solid #e2e8f0;\">Услуга</th>\n                                <th style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Электроэнергия (с учетом счетчиков и потерь)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">7 017,00 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Газоснабжение (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">4 928,98 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Водоснабжение и водоотведение</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">0,00 руб.</td>\n                            </tr>\n                            \n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Доля МОП (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">357,36 руб.</td>\n                            </tr>\n                            \n                            <tr style=\"font-weight: bold; background-color: #f8fafc;\">\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0; color: #2563eb;\">\n                                    12 303,34 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </div>\n            "
+    },
+    {
+      "id": 1768137832328,
+      "tenantId": 11,
+      "month": 11,
+      "year": 2025,
+      "createdDate": "2026-01-11",
+      "totalAmount": 55446.2,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 21462.588794833755,
+        "gas": 31686.294502138055,
+        "water": 0,
+        "individual": 0,
+        "mop": 2297.3208831486168,
+        "other": 0
+      },
+      "breakdown": "\n                <div style=\"font-family: Arial, sans-serif; padding: 20px;\">\n                    <h2 style=\"color: #2563eb; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        Счет за коммунальные услуги\n                    </h2>\n                    <div style=\"margin-bottom: 20px;\">\n                        <p><strong>Арендатор:</strong> Автосервис</p>\n                        <p><strong>Период:</strong> Декабрь 2025</p>\n                        <p><strong>Дата формирования:</strong> 11.01.2026</p>\n                        <p><strong>Фактическая площадь:</strong> 450 м²</p>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px; background-color: #f8fafc;\">\n                        <tbody>\n                            \n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Вид деятельности</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Автосервис (коэфф. 1.2)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Режим работы</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Продленный день (коэфф. 1.3)</td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Итоговый коэффициент</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>1.56</strong></td>\n                </tr>\n                <tr>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\">Приведенная площадь</td>\n                    <td style=\"padding: 8px; border: 1px solid #e2e8f0;\"><strong>702.00 м²</strong> (450 м² × 1.56)</td>\n                </tr>\n            \n                        </tbody>\n                    </table>\n                    \n                    <div style=\"background-color: #f8fafc; padding: 10px; border-radius: 5px; margin: 10px 0; font-size: 0.9em;\">\n                        <p><strong>Методология расчета:</strong></p>\n                        <ul style=\"margin: 5px 0; padding-left: 20px;\">\n                            <li>Электроэнергия: расчет по показаниям счетчика с учетом потерь в сетях (5%)</li>\n                            <li>Газоснабжение: распределение по приведенной площади (фактическая площадь × итоговый коэффициент)</li>\n                            <li>Водоснабжение: по счетчику или по площади</li>\n                            <li>Индивидуальные услуги: прямые счета конкретному арендатору</li>\n                            <li>МОП: распределение по приведенной площади</li>\n                        </ul>\n                    </div>\n                    \n                    <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px;\">\n                        <thead>\n                            <tr style=\"background-color: #f1f5f9;\">\n                                <th style=\"padding: 10px; text-align: left; border: 1px solid #e2e8f0;\">Услуга</th>\n                                <th style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Электроэнергия (с учетом счетчиков и потерь)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">21 462,59 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Газоснабжение (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">31 686,29 руб.</td>\n                            </tr>\n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Водоснабжение и водоотведение</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">0,00 руб.</td>\n                            </tr>\n                            \n                            <tr>\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">Доля МОП (по приведенной площади)</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0;\">2 297,32 руб.</td>\n                            </tr>\n                            \n                            <tr style=\"font-weight: bold; background-color: #f8fafc;\">\n                                <td style=\"padding: 10px; border: 1px solid #e2e8f0;\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"padding: 10px; text-align: right; border: 1px solid #e2e8f0; color: #2563eb;\">\n                                    55 446,20 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </div>\n            "
+    }
+  ],
+  "activityTypes": [
+    {
+      "id": 2,
+      "name": "Кафе, ресторан",
+      "coefficient": 1.3,
+      "dayType": "extended",
+      "description": "Заведения общественного питания"
+    },
+    {
+      "id": 3,
+      "name": "Автосервис",
+      "coefficient": 1.2,
+      "dayType": "extended",
+      "description": "Станция технического обслуживания автомобилей"
+    },
+    {
+      "id": 4,
+      "name": "Автомойка",
+      "coefficient": 1.2,
+      "dayType": "24h",
+      "description": "Автомойка самообслуживания или ручная"
+    },
+    {
+      "id": 5,
+      "name": "Офис",
+      "coefficient": 1,
+      "dayType": "normal",
+      "description": "Офисные помещения"
+    },
+    {
+      "id": 6,
+      "name": "Склад",
+      "coefficient": 0.8,
+      "dayType": "normal",
+      "description": "Складские помещения"
+    },
+    {
+      "id": 7,
+      "name": "Салон красоты",
+      "coefficient": 1.1,
+      "dayType": "extended",
+      "description": "Парикмахерская, косметология"
+    },
+    {
+      "id": 8,
+      "name": "Фитнес-центр",
+      "coefficient": 1.3,
+      "dayType": "extended",
+      "description": "Спортивный зал, тренажеры"
+    },
+    {
+      "id": 9,
+      "name": "Детейлинг мойка",
       "coefficient": 1.3,
       "dayType": "normal",
-      "description": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ²ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¾ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¹ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ° ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂµÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ"
+      "description": "Автомойка классическая"
     }
   ],
   "settings": {
@@ -74,7 +457,7 @@
     "electricityLossPercent": 5
   },
   "_meta": {
-    "lastSync": "2026-01-12T10:00:25.912Z",
+    "lastSync": "2026-01-12T10:00:42.693Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
