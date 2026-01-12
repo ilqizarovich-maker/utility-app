@@ -1,19 +1,7 @@
 {
   "currentMonth": 11,
   "currentYear": 2025,
-  "tenants": [
-    {
-      "id": 1,
-      "name": "енорнрао",
-      "area": 2,
-      "activityTypeId": 5,
-      "electricityMeterId": null,
-      "waterMeterId": null,
-      "groupMeterId": null,
-      "phone": "",
-      "email": ""
-    }
-  ],
+  "tenants": [],
   "bills": [],
   "meterReadings": {
     "2025-11": {
@@ -92,7 +80,7 @@
     "electricityLossPercent": 5
   },
   "_meta": {
-    "lastSync": "2026-01-12T09:38:34.065Z",
+    "lastSync": "2026-01-12T09:38:36.531Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
