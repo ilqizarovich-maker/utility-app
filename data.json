@@ -1,6 +1,6 @@
 {
-  "currentMonth": 0,
-  "currentYear": 2026,
+  "currentMonth": 11,
+  "currentYear": 2025,
   "tenants": [
     {
       "id": 1,
@@ -457,7 +457,7 @@
     "electricityLossPercent": 5
   },
   "_meta": {
-    "lastSync": "2026-01-13T14:53:13.035Z",
+    "lastSync": "2026-01-13T14:53:29.768Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
