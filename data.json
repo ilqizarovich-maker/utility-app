@@ -1,0 +1,88 @@
+{
+  "currentMonth": 0,
+  "currentYear": 2026,
+  "tenants": [],
+  "bills": [],
+  "meterReadings": {
+    "2026-0": {
+      "electricity": {},
+      "water": {},
+      "groups": {}
+    }
+  },
+  "invoices": [],
+  "activityTypes": [
+    {
+      "id": 1,
+      "name": "Розничная торговля",
+      "coefficient": 1,
+      "dayType": "normal",
+      "description": "Магазин продуктов, одежды и т.д."
+    },
+    {
+      "id": 2,
+      "name": "Кафе, ресторан",
+      "coefficient": 1.3,
+      "dayType": "extended",
+      "description": "Заведения общественного питания"
+    },
+    {
+      "id": 3,
+      "name": "Автосервис",
+      "coefficient": 1.2,
+      "dayType": "extended",
+      "description": "Станция технического обслуживания автомобилей"
+    },
+    {
+      "id": 4,
+      "name": "Автомойка",
+      "coefficient": 1.2,
+      "dayType": "24h",
+      "description": "Автомойка самообслуживания или ручная"
+    },
+    {
+      "id": 5,
+      "name": "Офис",
+      "coefficient": 1,
+      "dayType": "normal",
+      "description": "Офисные помещения"
+    },
+    {
+      "id": 6,
+      "name": "Склад",
+      "coefficient": 0.8,
+      "dayType": "normal",
+      "description": "Складские помещения"
+    },
+    {
+      "id": 7,
+      "name": "Салон красоты",
+      "coefficient": 1.1,
+      "dayType": "extended",
+      "description": "Парикмахерская, косметология"
+    },
+    {
+      "id": 8,
+      "name": "Фитнес-центр",
+      "coefficient": 1.3,
+      "dayType": "extended",
+      "description": "Спортивный зал, тренажеры"
+    }
+  ],
+  "settings": {
+    "dayTypeCoefficients": {
+      "normal": 1,
+      "extended": 1.3,
+      "24h": 1.8
+    },
+    "mopArea": 150,
+    "mopCostPerSqm": 100,
+    "electricityLossPercent": 5
+  },
+  "_meta": {
+    "lastSync": "2026-01-13T13:40:10.803Z",
+    "version": "2.2.0",
+    "userId": "user_x8b0dkd08_1768137626932",
+    "storageMode": "github"
+  }
+}
