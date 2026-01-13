@@ -3,7 +3,13 @@
   "currentYear": 2025,
   "tenants": [],
   "bills": [],
-  "meterReadings": {},
+  "meterReadings": {
+    "2025-11": {
+      "electricity": {},
+      "water": {},
+      "groups": {}
+    }
+  },
   "invoices": [],
   "activityTypes": [
     {
@@ -74,7 +80,7 @@
     "electricityLossPercent": 5
   },
   "_meta": {
-    "lastSync": "2026-01-13T13:37:05.567Z",
+    "lastSync": "2026-01-13T13:37:24.745Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
