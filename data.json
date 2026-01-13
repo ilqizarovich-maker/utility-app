@@ -434,7 +434,7 @@
     {
       "id": 8,
       "name": "Фитнес-центр",
-      "coefficient": 1.3,
+      "coefficient": 1.1,
       "dayType": "extended",
       "description": "Спортивный зал, тренажеры"
     },
@@ -457,7 +457,7 @@
     "electricityLossPercent": 5
   },
   "_meta": {
-    "lastSync": "2026-01-13T14:10:18.181Z",
+    "lastSync": "2026-01-13T14:10:34.686Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
