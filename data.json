@@ -139,19 +139,6 @@
       "tenantId": null
     },
     {
-      "id": 4,
-      "date": "2026-01-15",
-      "billType": "general",
-      "type": "electricity",
-      "amount": 153970.98,
-      "volume": 14545,
-      "unit": "ед.",
-      "description": "",
-      "month": 11,
-      "year": 2025,
-      "tenantId": null
-    },
-    {
       "id": 5,
       "date": "2026-01-15",
       "billType": "general",
@@ -470,7 +457,7 @@
     "electricityLossPercent": 5
   },
   "_meta": {
-    "lastSync": "2026-01-15T15:36:46.963Z",
+    "lastSync": "2026-01-15T15:37:16.977Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
