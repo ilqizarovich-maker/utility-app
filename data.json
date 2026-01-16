@@ -150,7 +150,8 @@
       "description": "",
       "month": 11,
       "year": 2025,
-      "tenantId": null
+      "tenantId": null,
+      "vatAmount": 25661.83
     }
   ],
   "meterReadings": {
@@ -458,7 +459,7 @@
     "electricityLossPercent": 5
   },
   "_meta": {
-    "lastSync": "2026-01-16T07:18:45.618Z",
+    "lastSync": "2026-01-16T07:19:01.607Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
