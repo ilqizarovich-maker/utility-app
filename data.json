@@ -774,11 +774,11 @@
     },
     "mopArea": 500,
     "mopCostPerSqm": 40,
-    "electricityLossPercent": 20,
+    "electricityLossPercent": 15,
     "defaultVATPercent": 22
   },
   "_meta": {
-    "lastSync": "2026-01-16T08:33:15.659Z",
+    "lastSync": "2026-01-16T08:33:32.884Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
