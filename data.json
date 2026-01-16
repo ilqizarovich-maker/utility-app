@@ -162,6 +162,7 @@
     },
     "2025-11": {
       "electricity": {
+        "1": 200,
         "1011": 78089,
         "8513": 22775
       },
@@ -778,7 +779,7 @@
     "defaultVATPercent": 0.1
   },
   "_meta": {
-    "lastSync": "2026-01-16T09:55:21.299Z",
+    "lastSync": "2026-01-16T09:55:38.652Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
