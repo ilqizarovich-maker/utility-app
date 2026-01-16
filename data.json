@@ -144,7 +144,7 @@
       "date": "2026-01-15",
       "billType": "general",
       "type": "electricity",
-      "amount": 128309.15,
+      "amount": 153970.98,
       "volume": 14545,
       "unit": "ед.",
       "description": "",
@@ -778,7 +778,7 @@
     "defaultVATPercent": 0.1
   },
   "_meta": {
-    "lastSync": "2026-01-16T07:40:45.627Z",
+    "lastSync": "2026-01-16T07:41:11.638Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
