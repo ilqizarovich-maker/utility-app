@@ -180,6 +180,20 @@
       "month": 0,
       "year": 2026,
       "tenantId": null
+    },
+    {
+      "id": 8,
+      "date": "2026-02-14",
+      "billType": "individual",
+      "type": "trash",
+      "amount": 5000,
+      "vatAmount": 0,
+      "volume": 1,
+      "unit": "ед.",
+      "description": "",
+      "month": 0,
+      "year": 2026,
+      "tenantId": 11
     }
   ],
   "meterReadings": {
@@ -1329,7 +1343,7 @@
     "defaultVATPercent": 0.1
   },
   "_meta": {
-    "lastSync": "2026-02-14T16:32:31.896Z",
+    "lastSync": "2026-02-14T16:32:56.134Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
