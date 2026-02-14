@@ -200,7 +200,7 @@
     "2026-0": {
       "electricity": {
         "1011": 79788,
-        "8513": 305
+        "8513": 23080
       },
       "water": {},
       "groups": {
@@ -1354,7 +1354,7 @@
     "defaultVATPercent": 0.1
   },
   "_meta": {
-    "lastSync": "2026-02-14T18:23:51.287Z",
+    "lastSync": "2026-02-14T18:24:12.784Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
