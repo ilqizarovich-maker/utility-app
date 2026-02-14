@@ -199,7 +199,8 @@
   "meterReadings": {
     "2026-0": {
       "electricity": {
-        "1011": 79788
+        "1011": 79788,
+        "8513": 305
       },
       "water": {},
       "groups": {
@@ -1353,7 +1354,7 @@
     "defaultVATPercent": 0.1
   },
   "_meta": {
-    "lastSync": "2026-02-14T18:22:11.674Z",
+    "lastSync": "2026-02-14T18:22:16.310Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
