@@ -1042,7 +1042,7 @@
       "year": 2026,
       "createdDate": "2026-02-14",
       "totalAmount": 17351.05,
-      "paidAmount": 0,
+      "paidAmount": 17351.05,
       "details": {
         "electricity": 11970.057116102687,
         "gas": 4310.643776327744,
@@ -1354,7 +1354,7 @@
     "defaultVATPercent": 0.1
   },
   "_meta": {
-    "lastSync": "2026-02-19T13:16:28.036Z",
+    "lastSync": "2026-02-19T13:16:36.135Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
