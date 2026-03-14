@@ -194,6 +194,20 @@
       "month": 0,
       "year": 2026,
       "tenantId": 11
+    },
+    {
+      "id": 9,
+      "date": "2026-03-14",
+      "billType": "general",
+      "type": "electricity",
+      "amount": 149042.17,
+      "vatAmount": 26876.46,
+      "volume": 13640,
+      "unit": "ед.",
+      "description": "",
+      "month": 1,
+      "year": 2026,
+      "tenantId": null
     }
   ],
   "meterReadings": {
@@ -1359,7 +1373,7 @@
     "defaultVATPercent": 0.1
   },
   "_meta": {
-    "lastSync": "2026-03-14T11:59:52.045Z",
+    "lastSync": "2026-03-14T12:00:03.539Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
