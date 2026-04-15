@@ -236,6 +236,20 @@
       "month": 2,
       "year": 2026,
       "tenantId": null
+    },
+    {
+      "id": 12,
+      "date": "2026-04-15",
+      "billType": "general",
+      "type": "gas",
+      "amount": 68592.87,
+      "vatAmount": 0,
+      "volume": 6,
+      "unit": "ед.",
+      "description": "",
+      "month": 2,
+      "year": 2026,
+      "tenantId": null
     }
   ],
   "meterReadings": {
@@ -1936,7 +1950,7 @@
     "defaultVATPercent": 0.1
   },
   "_meta": {
-    "lastSync": "2026-04-15T16:30:28.077Z",
+    "lastSync": "2026-04-15T16:30:52.051Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
