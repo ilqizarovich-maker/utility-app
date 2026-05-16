@@ -335,7 +335,8 @@
       },
       "water": {},
       "groups": {
-        "1611": 608260
+        "1611": 608260,
+        "9111": 165324
       }
     }
   },
@@ -2495,7 +2496,7 @@
     "defaultVATPercent": 0.1
   },
   "_meta": {
-    "lastSync": "2026-05-16T08:52:55.003Z",
+    "lastSync": "2026-05-16T08:52:57.696Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
