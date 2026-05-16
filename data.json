@@ -329,9 +329,14 @@
       }
     },
     "2026-3": {
-      "electricity": {},
+      "electricity": {
+        "1011": 84967,
+        "8513": 23995
+      },
       "water": {},
-      "groups": {}
+      "groups": {
+        "1611": 608260
+      }
     }
   },
   "invoices": [
@@ -2490,7 +2495,7 @@
     "defaultVATPercent": 0.1
   },
   "_meta": {
-    "lastSync": "2026-05-16T08:46:24.995Z",
+    "lastSync": "2026-05-16T08:46:27.064Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
