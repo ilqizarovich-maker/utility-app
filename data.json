@@ -264,6 +264,20 @@
       "month": 2,
       "year": 2026,
       "tenantId": 11
+    },
+    {
+      "id": 14,
+      "date": "2026-05-16",
+      "billType": "individual",
+      "type": "trash",
+      "amount": 5000,
+      "vatAmount": 0,
+      "volume": 0,
+      "unit": "ед.",
+      "description": "04.05 Вывоз контейнера",
+      "month": 3,
+      "year": 2026,
+      "tenantId": 11
     }
   ],
   "meterReadings": {
@@ -2497,7 +2511,7 @@
     "defaultVATPercent": 0.1
   },
   "_meta": {
-    "lastSync": "2026-05-16T08:53:54.995Z",
+    "lastSync": "2026-05-16T08:54:17.560Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
