@@ -2467,6 +2467,532 @@
         }
       },
       "breakdown": "\n                <div class=\"compact-invoice\">\n                    <!-- Шапка счета -->\n                    <div style=\"text-align: center; margin-bottom: 10px; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        <h2 style=\"color: #2563eb; font-size: 14px; margin: 5px 0;\">СЧЕТ ЗА КОММУНАЛЬНЫЕ УСЛУГИ</h2>\n                        <div style=\"display: flex; justify-content: space-between; font-size: 11px;\">\n                            <div>№: <strong>СЧ-2026-03-011</strong></div>\n                            <div>Дата: <strong>15.04.2026</strong></div>\n                        </div>\n                    </div>\n                    \n                    <!-- Информация об арендаторе и периоде -->\n                    <div style=\"margin-bottom: 10px;\">\n                        <table>\n                            <tr>\n                                <td style=\"width: 30%; background-color: #f8f9fa;\"><strong>Арендатор:</strong></td>\n                                <td style=\"width: 70%;\">Автосервис</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Период:</strong></td>\n                                <td>Март 2026</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Площадь:</strong></td>\n                                <td>450 м²</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Вид деятельности:</strong></td>\n                                <td>Автосервис (коэфф. 1.2)</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Итоговый коэфф.:</strong></td>\n                                <td>1.56</td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Детализация по услугам -->\n                    <div class=\"section-header\">ДЕТАЛИЗАЦИЯ РАСЧЕТОВ</div>\n                    \n                    <table style=\"margin-bottom: 10px;\">\n                        <thead>\n                            <tr style=\"background-color: #e9ecef;\">\n                                <th style=\"width: 40%;\">Услуга</th>\n                                <th style=\"width: 30%;\">Расчет</th>\n                                <th style=\"width: 30%; text-align: right;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <!-- Электроэнергия -->\n                            \n                            <tr>\n                                <td>⚡ Электроэнергия</td>\n                                <td style=\"font-size: 10px;\">\n                                    1716.00 кВт·ч × 10.8855 руб.<br>+ потери 10%\n                                </td>\n                                <td style=\"text-align: right;\">22.5 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Газоснабжение -->\n                            \n                            <tr>\n                                <td>🔥 Газоснабжение</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 28.99% от 68.6 тыс ₽\n                                </td>\n                                <td style=\"text-align: right;\">19.9 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Водоснабжение -->\n                            \n                            \n                            <!-- НДС -->\n                            \n                            <tr>\n                                <td>🏛️ НДС</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 28.99% от НДС РСО\n                                </td>\n                                <td style=\"text-align: right;\">6.9 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Индивидуальные услуги -->\n                            \n                            <tr>\n                                <td>📋 Индивидуальные услуги</td>\n                                <td style=\"font-size: 10px;\">\n                                    1 услуг\n                                </td>\n                                <td style=\"text-align: right;\">5.0 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Прочие расходы -->\n                            \n                            \n                            <!-- ИТОГО -->\n                            <tr style=\"background-color: #e9ecef; font-weight: bold;\">\n                                <td colspan=\"2\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"text-align: right; font-size: 12px; color: #2563eb;\">\n                                    54 232,48 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                    \n                    <!-- Краткая информация о расчетах -->\n                    <div class=\"section-header\">КРАТКИЕ СВЕДЕНИЯ О РАСЧЕТАХ</div>\n                    \n                    <div style=\"font-size: 10px; line-height: 1.4; margin-bottom: 10px;\">\n                        <p><strong>Электроэнергия:</strong> Потребление: 1716.00 кВт·ч (с учетом потерь 10%)</p>\n                        <p><strong>Газоснабжение:</strong> Распределение по приведенной площади (450 м² × 1.56 = 702.00 м²)</p>\n                        <p><strong>НДС:</strong> Распределение из счетов РСО пропорционально приведенной площади</p>\n                        <p><strong>Сумма НДС в счете:</strong> 6.9 тыс ₽ (12.7%)</p>\n                    </div>\n                    \n                    <!-- Подпись -->\n                    <div style=\"margin-top: 20px; padding-top: 10px; border-top: 1px solid #ddd; text-align: center;\">\n                        <table style=\"width: 100%; font-size: 10px;\">\n                            <tr>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (подпись)\n                                </td>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (расшифровка подписи)\n                                </td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Служебная информация (мелким шрифтом) -->\n                    <div style=\"margin-top: 10px; font-size: 8px; color: #666; text-align: center; border-top: 1px solid #eee; padding-top: 5px;\">\n                        Счет сформирован автоматически. Версия программы: 2.2.0<br>\n                        Дата формирования: 15.04.2026, 19:31:35\n                    </div>\n                </div>\n            "
+    },
+    {
+      "id": 1778921819688,
+      "tenantId": 1,
+      "month": 3,
+      "year": 2026,
+      "createdDate": "2026-05-16",
+      "totalAmount": 28638.1,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 17067.805412301554,
+        "gas": 7929.9772148343945,
+        "water": 0,
+        "individual": 0,
+        "vat": 3640.3153962020474,
+        "other": 0
+      },
+      "calculationDetails": {
+        "electricity": {
+          "avgPrice": 10.793178010471205,
+          "totalAmount": 103074.85,
+          "totalVolume": 9550,
+          "groupInfo": true,
+          "groupConsumption": 2220,
+          "tenantCoefficient": 1.6900000000000002,
+          "totalCoefficient": 2.6900000000000004,
+          "sharePercent": 62.825278810408925,
+          "tenantConsumption": 1394.7211895910782,
+          "directCost": 15053.474074232667,
+          "lossShare": 2014.331338068886
+        },
+        "gas": {
+          "totalAmount": 40578.29,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 473.20000000000005,
+          "share": 0.19542413479805074,
+          "sharePercent": 19.542413479805074
+        },
+        "vat": {
+          "totalVAT": 18627.767752247753,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 473.20000000000005,
+          "share": 0.19542413479805074,
+          "sharePercent": 19.542413479805074,
+          "vatSource": "распределение НДС из счетов РСО"
+        }
+      },
+      "breakdown": "\n                <div class=\"compact-invoice\">\n                    <!-- Шапка счета -->\n                    <div style=\"text-align: center; margin-bottom: 10px; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        <h2 style=\"color: #2563eb; font-size: 14px; margin: 5px 0;\">СЧЕТ ЗА КОММУНАЛЬНЫЕ УСЛУГИ</h2>\n                        <div style=\"display: flex; justify-content: space-between; font-size: 11px;\">\n                            <div>№: <strong>СЧ-2026-04-001</strong></div>\n                            <div>Дата: <strong>16.05.2026</strong></div>\n                        </div>\n                    </div>\n                    \n                    <!-- Информация об арендаторе и периоде -->\n                    <div style=\"margin-bottom: 10px;\">\n                        <table>\n                            <tr>\n                                <td style=\"width: 30%; background-color: #f8f9fa;\"><strong>Арендатор:</strong></td>\n                                <td style=\"width: 70%;\">Кафе \"Прага\"</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Период:</strong></td>\n                                <td>Апрель 2026</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Площадь:</strong></td>\n                                <td>280 м²</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Вид деятельности:</strong></td>\n                                <td>Кафе, ресторан (коэфф. 1.3)</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Итоговый коэфф.:</strong></td>\n                                <td>1.69</td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Детализация по услугам -->\n                    <div class=\"section-header\">ДЕТАЛИЗАЦИЯ РАСЧЕТОВ</div>\n                    \n                    <table style=\"margin-bottom: 10px;\">\n                        <thead>\n                            <tr style=\"background-color: #e9ecef;\">\n                                <th style=\"width: 40%;\">Услуга</th>\n                                <th style=\"width: 30%;\">Расчет</th>\n                                <th style=\"width: 30%; text-align: right;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <!-- Электроэнергия -->\n                            \n                            <tr>\n                                <td>⚡ Электроэнергия</td>\n                                <td style=\"font-size: 10px;\">\n                                    1394.72 кВт·ч × 10.7932 руб.<br>+ потери 10%\n                                </td>\n                                <td style=\"text-align: right;\">17.1 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Газоснабжение -->\n                            \n                            <tr>\n                                <td>🔥 Газоснабжение</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 19.54% от 40.6 тыс ₽\n                                </td>\n                                <td style=\"text-align: right;\">7.9 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Водоснабжение -->\n                            \n                            \n                            <!-- НДС -->\n                            \n                            <tr>\n                                <td>🏛️ НДС</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 19.54% от НДС РСО\n                                </td>\n                                <td style=\"text-align: right;\">3.6 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Индивидуальные услуги -->\n                            \n                            \n                            <!-- Прочие расходы -->\n                            \n                            \n                            <!-- ИТОГО -->\n                            <tr style=\"background-color: #e9ecef; font-weight: bold;\">\n                                <td colspan=\"2\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"text-align: right; font-size: 12px; color: #2563eb;\">\n                                    28 638,10 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                    \n                    <!-- Краткая информация о расчетах -->\n                    <div class=\"section-header\">КРАТКИЕ СВЕДЕНИЯ О РАСЧЕТАХ</div>\n                    \n                    <div style=\"font-size: 10px; line-height: 1.4; margin-bottom: 10px;\">\n                        <p><strong>Электроэнергия:</strong> Потребление: 1394.72 кВт·ч (с учетом потерь 10%)</p>\n                        <p><strong>Газоснабжение:</strong> Распределение по приведенной площади (280 м² × 1.69 = 473.20 м²)</p>\n                        <p><strong>НДС:</strong> Распределение из счетов РСО пропорционально приведенной площади</p>\n                        <p><strong>Сумма НДС в счете:</strong> 3.6 тыс ₽ (12.7%)</p>\n                    </div>\n                    \n                    <!-- Подпись -->\n                    <div style=\"margin-top: 20px; padding-top: 10px; border-top: 1px solid #ddd; text-align: center;\">\n                        <table style=\"width: 100%; font-size: 10px;\">\n                            <tr>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (подпись)\n                                </td>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (расшифровка подписи)\n                                </td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Служебная информация (мелким шрифтом) -->\n                    <div style=\"margin-top: 10px; font-size: 8px; color: #666; text-align: center; border-top: 1px solid #eee; padding-top: 5px;\">\n                        Счет сформирован автоматически. Версия программы: 2.2.0<br>\n                        Дата формирования: 16.05.2026, 11:56:59\n                    </div>\n                </div>\n            "
+    },
+    {
+      "id": 1778921819885,
+      "tenantId": 2,
+      "month": 3,
+      "year": 2026,
+      "createdDate": "2026-05-16",
+      "totalAmount": 2641.14,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 391.62823986123726,
+        "gas": 1541.7538118443874,
+        "water": 0,
+        "individual": 0,
+        "vat": 707.7536273258416,
+        "other": 0
+      },
+      "calculationDetails": {
+        "electricity": {
+          "avgPrice": 10.793178010471205,
+          "totalAmount": 103074.85,
+          "totalVolume": 9550,
+          "tenantConsumption": 0,
+          "directCost": 0,
+          "lossShare": 391.62823986123726
+        },
+        "gas": {
+          "totalAmount": 40578.29,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 92,
+          "share": 0.03799454860824316,
+          "sharePercent": 3.799454860824316
+        },
+        "vat": {
+          "totalVAT": 18627.767752247753,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 92,
+          "share": 0.03799454860824316,
+          "sharePercent": 3.799454860824316,
+          "vatSource": "распределение НДС из счетов РСО"
+        }
+      },
+      "breakdown": "\n                <div class=\"compact-invoice\">\n                    <!-- Шапка счета -->\n                    <div style=\"text-align: center; margin-bottom: 10px; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        <h2 style=\"color: #2563eb; font-size: 14px; margin: 5px 0;\">СЧЕТ ЗА КОММУНАЛЬНЫЕ УСЛУГИ</h2>\n                        <div style=\"display: flex; justify-content: space-between; font-size: 11px;\">\n                            <div>№: <strong>СЧ-2026-04-002</strong></div>\n                            <div>Дата: <strong>16.05.2026</strong></div>\n                        </div>\n                    </div>\n                    \n                    <!-- Информация об арендаторе и периоде -->\n                    <div style=\"margin-bottom: 10px;\">\n                        <table>\n                            <tr>\n                                <td style=\"width: 30%; background-color: #f8f9fa;\"><strong>Арендатор:</strong></td>\n                                <td style=\"width: 70%;\">Бьюти салон</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Период:</strong></td>\n                                <td>Апрель 2026</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Площадь:</strong></td>\n                                <td>92 м²</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Вид деятельности:</strong></td>\n                                <td>Офис (коэфф. 1)</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Итоговый коэфф.:</strong></td>\n                                <td>1.00</td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Детализация по услугам -->\n                    <div class=\"section-header\">ДЕТАЛИЗАЦИЯ РАСЧЕТОВ</div>\n                    \n                    <table style=\"margin-bottom: 10px;\">\n                        <thead>\n                            <tr style=\"background-color: #e9ecef;\">\n                                <th style=\"width: 40%;\">Услуга</th>\n                                <th style=\"width: 30%;\">Расчет</th>\n                                <th style=\"width: 30%; text-align: right;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <!-- Электроэнергия -->\n                            \n                            <tr>\n                                <td>⚡ Электроэнергия</td>\n                                <td style=\"font-size: 10px;\">\n                                    Распределение<br>+ потери 10%\n                                </td>\n                                <td style=\"text-align: right;\">392 ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Газоснабжение -->\n                            \n                            <tr>\n                                <td>🔥 Газоснабжение</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 3.80% от 40.6 тыс ₽\n                                </td>\n                                <td style=\"text-align: right;\">1.5 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Водоснабжение -->\n                            \n                            \n                            <!-- НДС -->\n                            \n                            <tr>\n                                <td>🏛️ НДС</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 3.80% от НДС РСО\n                                </td>\n                                <td style=\"text-align: right;\">708 ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Индивидуальные услуги -->\n                            \n                            \n                            <!-- Прочие расходы -->\n                            \n                            \n                            <!-- ИТОГО -->\n                            <tr style=\"background-color: #e9ecef; font-weight: bold;\">\n                                <td colspan=\"2\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"text-align: right; font-size: 12px; color: #2563eb;\">\n                                    2 641,14 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                    \n                    <!-- Краткая информация о расчетах -->\n                    <div class=\"section-header\">КРАТКИЕ СВЕДЕНИЯ О РАСЧЕТАХ</div>\n                    \n                    <div style=\"font-size: 10px; line-height: 1.4; margin-bottom: 10px;\">\n                        <p><strong>Электроэнергия:</strong> Распределение по группе (с учетом потерь 10%)</p>\n                        <p><strong>Газоснабжение:</strong> Распределение по приведенной площади (92 м² × 1.00 = 92.00 м²)</p>\n                        <p><strong>НДС:</strong> Распределение из счетов РСО пропорционально приведенной площади</p>\n                        <p><strong>Сумма НДС в счете:</strong> 708 ₽ (26.8%)</p>\n                    </div>\n                    \n                    <!-- Подпись -->\n                    <div style=\"margin-top: 20px; padding-top: 10px; border-top: 1px solid #ddd; text-align: center;\">\n                        <table style=\"width: 100%; font-size: 10px;\">\n                            <tr>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (подпись)\n                                </td>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (расшифровка подписи)\n                                </td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Служебная информация (мелким шрифтом) -->\n                    <div style=\"margin-top: 10px; font-size: 8px; color: #666; text-align: center; border-top: 1px solid #eee; padding-top: 5px;\">\n                        Счет сформирован автоматически. Версия программы: 2.2.0<br>\n                        Дата формирования: 16.05.2026, 11:56:59\n                    </div>\n                </div>\n            "
+    },
+    {
+      "id": 1778921820126,
+      "tenantId": 3,
+      "month": 3,
+      "year": 2026,
+      "createdDate": "2026-05-16",
+      "totalAmount": 2641.14,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 391.62823986123726,
+        "gas": 1541.7538118443874,
+        "water": 0,
+        "individual": 0,
+        "vat": 707.7536273258416,
+        "other": 0
+      },
+      "calculationDetails": {
+        "electricity": {
+          "avgPrice": 10.793178010471205,
+          "totalAmount": 103074.85,
+          "totalVolume": 9550,
+          "tenantConsumption": 0,
+          "directCost": 0,
+          "lossShare": 391.62823986123726
+        },
+        "gas": {
+          "totalAmount": 40578.29,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 92,
+          "share": 0.03799454860824316,
+          "sharePercent": 3.799454860824316
+        },
+        "vat": {
+          "totalVAT": 18627.767752247753,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 92,
+          "share": 0.03799454860824316,
+          "sharePercent": 3.799454860824316,
+          "vatSource": "распределение НДС из счетов РСО"
+        }
+      },
+      "breakdown": "\n                <div class=\"compact-invoice\">\n                    <!-- Шапка счета -->\n                    <div style=\"text-align: center; margin-bottom: 10px; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        <h2 style=\"color: #2563eb; font-size: 14px; margin: 5px 0;\">СЧЕТ ЗА КОММУНАЛЬНЫЕ УСЛУГИ</h2>\n                        <div style=\"display: flex; justify-content: space-between; font-size: 11px;\">\n                            <div>№: <strong>СЧ-2026-04-003</strong></div>\n                            <div>Дата: <strong>16.05.2026</strong></div>\n                        </div>\n                    </div>\n                    \n                    <!-- Информация об арендаторе и периоде -->\n                    <div style=\"margin-bottom: 10px;\">\n                        <table>\n                            <tr>\n                                <td style=\"width: 30%; background-color: #f8f9fa;\"><strong>Арендатор:</strong></td>\n                                <td style=\"width: 70%;\">Детская зона \"Чудеса\"</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Период:</strong></td>\n                                <td>Апрель 2026</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Площадь:</strong></td>\n                                <td>92 м²</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Вид деятельности:</strong></td>\n                                <td>Офис (коэфф. 1)</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Итоговый коэфф.:</strong></td>\n                                <td>1.00</td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Детализация по услугам -->\n                    <div class=\"section-header\">ДЕТАЛИЗАЦИЯ РАСЧЕТОВ</div>\n                    \n                    <table style=\"margin-bottom: 10px;\">\n                        <thead>\n                            <tr style=\"background-color: #e9ecef;\">\n                                <th style=\"width: 40%;\">Услуга</th>\n                                <th style=\"width: 30%;\">Расчет</th>\n                                <th style=\"width: 30%; text-align: right;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <!-- Электроэнергия -->\n                            \n                            <tr>\n                                <td>⚡ Электроэнергия</td>\n                                <td style=\"font-size: 10px;\">\n                                    Распределение<br>+ потери 10%\n                                </td>\n                                <td style=\"text-align: right;\">392 ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Газоснабжение -->\n                            \n                            <tr>\n                                <td>🔥 Газоснабжение</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 3.80% от 40.6 тыс ₽\n                                </td>\n                                <td style=\"text-align: right;\">1.5 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Водоснабжение -->\n                            \n                            \n                            <!-- НДС -->\n                            \n                            <tr>\n                                <td>🏛️ НДС</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 3.80% от НДС РСО\n                                </td>\n                                <td style=\"text-align: right;\">708 ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Индивидуальные услуги -->\n                            \n                            \n                            <!-- Прочие расходы -->\n                            \n                            \n                            <!-- ИТОГО -->\n                            <tr style=\"background-color: #e9ecef; font-weight: bold;\">\n                                <td colspan=\"2\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"text-align: right; font-size: 12px; color: #2563eb;\">\n                                    2 641,14 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                    \n                    <!-- Краткая информация о расчетах -->\n                    <div class=\"section-header\">КРАТКИЕ СВЕДЕНИЯ О РАСЧЕТАХ</div>\n                    \n                    <div style=\"font-size: 10px; line-height: 1.4; margin-bottom: 10px;\">\n                        <p><strong>Электроэнергия:</strong> Распределение по группе (с учетом потерь 10%)</p>\n                        <p><strong>Газоснабжение:</strong> Распределение по приведенной площади (92 м² × 1.00 = 92.00 м²)</p>\n                        <p><strong>НДС:</strong> Распределение из счетов РСО пропорционально приведенной площади</p>\n                        <p><strong>Сумма НДС в счете:</strong> 708 ₽ (26.8%)</p>\n                    </div>\n                    \n                    <!-- Подпись -->\n                    <div style=\"margin-top: 20px; padding-top: 10px; border-top: 1px solid #ddd; text-align: center;\">\n                        <table style=\"width: 100%; font-size: 10px;\">\n                            <tr>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (подпись)\n                                </td>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (расшифровка подписи)\n                                </td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Служебная информация (мелким шрифтом) -->\n                    <div style=\"margin-top: 10px; font-size: 8px; color: #666; text-align: center; border-top: 1px solid #eee; padding-top: 5px;\">\n                        Счет сформирован автоматически. Версия программы: 2.2.0<br>\n                        Дата формирования: 16.05.2026, 11:56:59\n                    </div>\n                </div>\n            "
+    },
+    {
+      "id": 1778921819845,
+      "tenantId": 4,
+      "month": 3,
+      "year": 2026,
+      "createdDate": "2026-05-16",
+      "totalAmount": 11060.48,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 9226.643261074201,
+        "gas": 1256.864520525316,
+        "water": 0,
+        "individual": 0,
+        "vat": 576.9730657547623,
+        "other": 0
+      },
+      "calculationDetails": {
+        "electricity": {
+          "avgPrice": 10.793178010471205,
+          "totalAmount": 103074.85,
+          "totalVolume": 9550,
+          "groupInfo": true,
+          "groupConsumption": 2220,
+          "tenantCoefficient": 1,
+          "totalCoefficient": 2.6900000000000004,
+          "sharePercent": 37.17472118959107,
+          "tenantConsumption": 825.2788104089218,
+          "directCost": 8907.38110901341,
+          "lossShare": 319.26215206079127
+        },
+        "gas": {
+          "totalAmount": 40578.29,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 75,
+          "share": 0.030973816800198232,
+          "sharePercent": 3.097381680019823
+        },
+        "vat": {
+          "totalVAT": 18627.767752247753,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 75,
+          "share": 0.030973816800198232,
+          "sharePercent": 3.097381680019823,
+          "vatSource": "распределение НДС из счетов РСО"
+        }
+      },
+      "breakdown": "\n                <div class=\"compact-invoice\">\n                    <!-- Шапка счета -->\n                    <div style=\"text-align: center; margin-bottom: 10px; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        <h2 style=\"color: #2563eb; font-size: 14px; margin: 5px 0;\">СЧЕТ ЗА КОММУНАЛЬНЫЕ УСЛУГИ</h2>\n                        <div style=\"display: flex; justify-content: space-between; font-size: 11px;\">\n                            <div>№: <strong>СЧ-2026-04-004</strong></div>\n                            <div>Дата: <strong>16.05.2026</strong></div>\n                        </div>\n                    </div>\n                    \n                    <!-- Информация об арендаторе и периоде -->\n                    <div style=\"margin-bottom: 10px;\">\n                        <table>\n                            <tr>\n                                <td style=\"width: 30%; background-color: #f8f9fa;\"><strong>Арендатор:</strong></td>\n                                <td style=\"width: 70%;\">Магазин копченостей</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Период:</strong></td>\n                                <td>Апрель 2026</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Площадь:</strong></td>\n                                <td>75 м²</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Вид деятельности:</strong></td>\n                                <td>Офис (коэфф. 1)</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Итоговый коэфф.:</strong></td>\n                                <td>1.00</td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Детализация по услугам -->\n                    <div class=\"section-header\">ДЕТАЛИЗАЦИЯ РАСЧЕТОВ</div>\n                    \n                    <table style=\"margin-bottom: 10px;\">\n                        <thead>\n                            <tr style=\"background-color: #e9ecef;\">\n                                <th style=\"width: 40%;\">Услуга</th>\n                                <th style=\"width: 30%;\">Расчет</th>\n                                <th style=\"width: 30%; text-align: right;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <!-- Электроэнергия -->\n                            \n                            <tr>\n                                <td>⚡ Электроэнергия</td>\n                                <td style=\"font-size: 10px;\">\n                                    825.28 кВт·ч × 10.7932 руб.<br>+ потери 10%\n                                </td>\n                                <td style=\"text-align: right;\">9.2 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Газоснабжение -->\n                            \n                            <tr>\n                                <td>🔥 Газоснабжение</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 3.10% от 40.6 тыс ₽\n                                </td>\n                                <td style=\"text-align: right;\">1.3 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Водоснабжение -->\n                            \n                            \n                            <!-- НДС -->\n                            \n                            <tr>\n                                <td>🏛️ НДС</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 3.10% от НДС РСО\n                                </td>\n                                <td style=\"text-align: right;\">577 ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Индивидуальные услуги -->\n                            \n                            \n                            <!-- Прочие расходы -->\n                            \n                            \n                            <!-- ИТОГО -->\n                            <tr style=\"background-color: #e9ecef; font-weight: bold;\">\n                                <td colspan=\"2\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"text-align: right; font-size: 12px; color: #2563eb;\">\n                                    11 060,48 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                    \n                    <!-- Краткая информация о расчетах -->\n                    <div class=\"section-header\">КРАТКИЕ СВЕДЕНИЯ О РАСЧЕТАХ</div>\n                    \n                    <div style=\"font-size: 10px; line-height: 1.4; margin-bottom: 10px;\">\n                        <p><strong>Электроэнергия:</strong> Потребление: 825.28 кВт·ч (с учетом потерь 10%)</p>\n                        <p><strong>Газоснабжение:</strong> Распределение по приведенной площади (75 м² × 1.00 = 75.00 м²)</p>\n                        <p><strong>НДС:</strong> Распределение из счетов РСО пропорционально приведенной площади</p>\n                        <p><strong>Сумма НДС в счете:</strong> 577 ₽ (5.2%)</p>\n                    </div>\n                    \n                    <!-- Подпись -->\n                    <div style=\"margin-top: 20px; padding-top: 10px; border-top: 1px solid #ddd; text-align: center;\">\n                        <table style=\"width: 100%; font-size: 10px;\">\n                            <tr>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (подпись)\n                                </td>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (расшифровка подписи)\n                                </td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Служебная информация (мелким шрифтом) -->\n                    <div style=\"margin-top: 10px; font-size: 8px; color: #666; text-align: center; border-top: 1px solid #eee; padding-top: 5px;\">\n                        Счет сформирован автоматически. Версия программы: 2.2.0<br>\n                        Дата формирования: 16.05.2026, 11:56:59\n                    </div>\n                </div>\n            "
+    },
+    {
+      "id": 1778921820003,
+      "tenantId": 5,
+      "month": 3,
+      "year": 2026,
+      "createdDate": "2026-05-16",
+      "totalAmount": 16872.04,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 10270.223535103463,
+        "gas": 4524.712273891137,
+        "water": 0,
+        "individual": 0,
+        "vat": 2077.1030367171443,
+        "other": 0
+      },
+      "calculationDetails": {
+        "electricity": {
+          "avgPrice": 10.793178010471205,
+          "totalAmount": 103074.85,
+          "totalVolume": 9550,
+          "groupInfo": true,
+          "groupConsumption": 2097,
+          "tenantCoefficient": 2.7,
+          "totalCoefficient": 6.7,
+          "sharePercent": 40.298507462686565,
+          "tenantConsumption": 845.0597014925373,
+          "directCost": 9120.879787684615,
+          "lossShare": 1149.3437474188486
+        },
+        "gas": {
+          "totalAmount": 40578.29,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 270,
+          "share": 0.11150574048071363,
+          "sharePercent": 11.150574048071363
+        },
+        "vat": {
+          "totalVAT": 18627.767752247753,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 270,
+          "share": 0.11150574048071363,
+          "sharePercent": 11.150574048071363,
+          "vatSource": "распределение НДС из счетов РСО"
+        }
+      },
+      "breakdown": "\n                <div class=\"compact-invoice\">\n                    <!-- Шапка счета -->\n                    <div style=\"text-align: center; margin-bottom: 10px; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        <h2 style=\"color: #2563eb; font-size: 14px; margin: 5px 0;\">СЧЕТ ЗА КОММУНАЛЬНЫЕ УСЛУГИ</h2>\n                        <div style=\"display: flex; justify-content: space-between; font-size: 11px;\">\n                            <div>№: <strong>СЧ-2026-04-005</strong></div>\n                            <div>Дата: <strong>16.05.2026</strong></div>\n                        </div>\n                    </div>\n                    \n                    <!-- Информация об арендаторе и периоде -->\n                    <div style=\"margin-bottom: 10px;\">\n                        <table>\n                            <tr>\n                                <td style=\"width: 30%; background-color: #f8f9fa;\"><strong>Арендатор:</strong></td>\n                                <td style=\"width: 70%;\">Автомойка самообслуживания 1-2 пост</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Период:</strong></td>\n                                <td>Апрель 2026</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Площадь:</strong></td>\n                                <td>100 м²</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Вид деятельности:</strong></td>\n                                <td>Автомойка (коэфф. 1.5)</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Итоговый коэфф.:</strong></td>\n                                <td>2.70</td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Детализация по услугам -->\n                    <div class=\"section-header\">ДЕТАЛИЗАЦИЯ РАСЧЕТОВ</div>\n                    \n                    <table style=\"margin-bottom: 10px;\">\n                        <thead>\n                            <tr style=\"background-color: #e9ecef;\">\n                                <th style=\"width: 40%;\">Услуга</th>\n                                <th style=\"width: 30%;\">Расчет</th>\n                                <th style=\"width: 30%; text-align: right;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <!-- Электроэнергия -->\n                            \n                            <tr>\n                                <td>⚡ Электроэнергия</td>\n                                <td style=\"font-size: 10px;\">\n                                    845.06 кВт·ч × 10.7932 руб.<br>+ потери 10%\n                                </td>\n                                <td style=\"text-align: right;\">10.3 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Газоснабжение -->\n                            \n                            <tr>\n                                <td>🔥 Газоснабжение</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 11.15% от 40.6 тыс ₽\n                                </td>\n                                <td style=\"text-align: right;\">4.5 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Водоснабжение -->\n                            \n                            \n                            <!-- НДС -->\n                            \n                            <tr>\n                                <td>🏛️ НДС</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 11.15% от НДС РСО\n                                </td>\n                                <td style=\"text-align: right;\">2.1 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Индивидуальные услуги -->\n                            \n                            \n                            <!-- Прочие расходы -->\n                            \n                            \n                            <!-- ИТОГО -->\n                            <tr style=\"background-color: #e9ecef; font-weight: bold;\">\n                                <td colspan=\"2\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"text-align: right; font-size: 12px; color: #2563eb;\">\n                                    16 872,04 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                    \n                    <!-- Краткая информация о расчетах -->\n                    <div class=\"section-header\">КРАТКИЕ СВЕДЕНИЯ О РАСЧЕТАХ</div>\n                    \n                    <div style=\"font-size: 10px; line-height: 1.4; margin-bottom: 10px;\">\n                        <p><strong>Электроэнергия:</strong> Потребление: 845.06 кВт·ч (с учетом потерь 10%)</p>\n                        <p><strong>Газоснабжение:</strong> Распределение по приведенной площади (100 м² × 2.70 = 270.00 м²)</p>\n                        <p><strong>НДС:</strong> Распределение из счетов РСО пропорционально приведенной площади</p>\n                        <p><strong>Сумма НДС в счете:</strong> 2.1 тыс ₽ (12.3%)</p>\n                    </div>\n                    \n                    <!-- Подпись -->\n                    <div style=\"margin-top: 20px; padding-top: 10px; border-top: 1px solid #ddd; text-align: center;\">\n                        <table style=\"width: 100%; font-size: 10px;\">\n                            <tr>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (подпись)\n                                </td>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (расшифровка подписи)\n                                </td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Служебная информация (мелким шрифтом) -->\n                    <div style=\"margin-top: 10px; font-size: 8px; color: #666; text-align: center; border-top: 1px solid #eee; padding-top: 5px;\">\n                        Счет сформирован автоматически. Версия программы: 2.2.0<br>\n                        Дата формирования: 16.05.2026, 11:56:59\n                    </div>\n                </div>\n            "
+    },
+    {
+      "id": 1778921820496,
+      "tenantId": 6,
+      "month": 3,
+      "year": 2026,
+      "createdDate": "2026-05-16",
+      "totalAmount": 8123.57,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 4944.922442827593,
+        "gas": 2178.5651689105475,
+        "water": 0,
+        "individual": 0,
+        "vat": 1000.0866473082547,
+        "other": 0
+      },
+      "calculationDetails": {
+        "electricity": {
+          "avgPrice": 10.793178010471205,
+          "totalAmount": 103074.85,
+          "totalVolume": 9550,
+          "groupInfo": true,
+          "groupConsumption": 2097,
+          "tenantCoefficient": 1.3,
+          "totalCoefficient": 6.7,
+          "sharePercent": 19.402985074626866,
+          "tenantConsumption": 406.8805970149254,
+          "directCost": 4391.534712588888,
+          "lossShare": 553.3877302387049
+        },
+        "gas": {
+          "totalAmount": 40578.29,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 130,
+          "share": 0.0536879491203436,
+          "sharePercent": 5.36879491203436
+        },
+        "vat": {
+          "totalVAT": 18627.767752247753,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 130,
+          "share": 0.0536879491203436,
+          "sharePercent": 5.36879491203436,
+          "vatSource": "распределение НДС из счетов РСО"
+        }
+      },
+      "breakdown": "\n                <div class=\"compact-invoice\">\n                    <!-- Шапка счета -->\n                    <div style=\"text-align: center; margin-bottom: 10px; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        <h2 style=\"color: #2563eb; font-size: 14px; margin: 5px 0;\">СЧЕТ ЗА КОММУНАЛЬНЫЕ УСЛУГИ</h2>\n                        <div style=\"display: flex; justify-content: space-between; font-size: 11px;\">\n                            <div>№: <strong>СЧ-2026-04-006</strong></div>\n                            <div>Дата: <strong>16.05.2026</strong></div>\n                        </div>\n                    </div>\n                    \n                    <!-- Информация об арендаторе и периоде -->\n                    <div style=\"margin-bottom: 10px;\">\n                        <table>\n                            <tr>\n                                <td style=\"width: 30%; background-color: #f8f9fa;\"><strong>Арендатор:</strong></td>\n                                <td style=\"width: 70%;\">Детейлинг мойка 1-2 пост</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Период:</strong></td>\n                                <td>Апрель 2026</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Площадь:</strong></td>\n                                <td>100 м²</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Вид деятельности:</strong></td>\n                                <td>Детейлинг мойка (коэфф. 1.3)</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Итоговый коэфф.:</strong></td>\n                                <td>1.30</td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Детализация по услугам -->\n                    <div class=\"section-header\">ДЕТАЛИЗАЦИЯ РАСЧЕТОВ</div>\n                    \n                    <table style=\"margin-bottom: 10px;\">\n                        <thead>\n                            <tr style=\"background-color: #e9ecef;\">\n                                <th style=\"width: 40%;\">Услуга</th>\n                                <th style=\"width: 30%;\">Расчет</th>\n                                <th style=\"width: 30%; text-align: right;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <!-- Электроэнергия -->\n                            \n                            <tr>\n                                <td>⚡ Электроэнергия</td>\n                                <td style=\"font-size: 10px;\">\n                                    406.88 кВт·ч × 10.7932 руб.<br>+ потери 10%\n                                </td>\n                                <td style=\"text-align: right;\">4.9 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Газоснабжение -->\n                            \n                            <tr>\n                                <td>🔥 Газоснабжение</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 5.37% от 40.6 тыс ₽\n                                </td>\n                                <td style=\"text-align: right;\">2.2 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Водоснабжение -->\n                            \n                            \n                            <!-- НДС -->\n                            \n                            <tr>\n                                <td>🏛️ НДС</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 5.37% от НДС РСО\n                                </td>\n                                <td style=\"text-align: right;\">1.0 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Индивидуальные услуги -->\n                            \n                            \n                            <!-- Прочие расходы -->\n                            \n                            \n                            <!-- ИТОГО -->\n                            <tr style=\"background-color: #e9ecef; font-weight: bold;\">\n                                <td colspan=\"2\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"text-align: right; font-size: 12px; color: #2563eb;\">\n                                    8 123,57 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                    \n                    <!-- Краткая информация о расчетах -->\n                    <div class=\"section-header\">КРАТКИЕ СВЕДЕНИЯ О РАСЧЕТАХ</div>\n                    \n                    <div style=\"font-size: 10px; line-height: 1.4; margin-bottom: 10px;\">\n                        <p><strong>Электроэнергия:</strong> Потребление: 406.88 кВт·ч (с учетом потерь 10%)</p>\n                        <p><strong>Газоснабжение:</strong> Распределение по приведенной площади (100 м² × 1.30 = 130.00 м²)</p>\n                        <p><strong>НДС:</strong> Распределение из счетов РСО пропорционально приведенной площади</p>\n                        <p><strong>Сумма НДС в счете:</strong> 1.0 тыс ₽ (12.3%)</p>\n                    </div>\n                    \n                    <!-- Подпись -->\n                    <div style=\"margin-top: 20px; padding-top: 10px; border-top: 1px solid #ddd; text-align: center;\">\n                        <table style=\"width: 100%; font-size: 10px;\">\n                            <tr>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (подпись)\n                                </td>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (расшифровка подписи)\n                                </td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Служебная информация (мелким шрифтом) -->\n                    <div style=\"margin-top: 10px; font-size: 8px; color: #666; text-align: center; border-top: 1px solid #eee; padding-top: 5px;\">\n                        Счет сформирован автоматически. Версия программы: 2.2.0<br>\n                        Дата формирования: 16.05.2026, 11:56:59\n                    </div>\n                </div>\n            "
+    },
+    {
+      "id": 1778921820437,
+      "tenantId": 7,
+      "month": 3,
+      "year": 2026,
+      "createdDate": "2026-05-16",
+      "totalAmount": 12221.34,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 9580.617286652154,
+        "gas": 1809.8849095564549,
+        "water": 0,
+        "individual": 0,
+        "vat": 830.8412146868577,
+        "other": 0
+      },
+      "calculationDetails": {
+        "electricity": {
+          "avgPrice": 10.793178010471205,
+          "totalAmount": 103074.85,
+          "totalVolume": 9550,
+          "groupInfo": true,
+          "groupConsumption": 2097,
+          "tenantCoefficient": 2.7,
+          "totalCoefficient": 6.7,
+          "sharePercent": 40.298507462686565,
+          "tenantConsumption": 845.0597014925373,
+          "directCost": 9120.879787684615,
+          "lossShare": 459.7374989675394
+        },
+        "gas": {
+          "totalAmount": 40578.29,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 108,
+          "share": 0.04460229619228545,
+          "sharePercent": 4.460229619228545
+        },
+        "vat": {
+          "totalVAT": 18627.767752247753,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 108,
+          "share": 0.04460229619228545,
+          "sharePercent": 4.460229619228545,
+          "vatSource": "распределение НДС из счетов РСО"
+        }
+      },
+      "breakdown": "\n                <div class=\"compact-invoice\">\n                    <!-- Шапка счета -->\n                    <div style=\"text-align: center; margin-bottom: 10px; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        <h2 style=\"color: #2563eb; font-size: 14px; margin: 5px 0;\">СЧЕТ ЗА КОММУНАЛЬНЫЕ УСЛУГИ</h2>\n                        <div style=\"display: flex; justify-content: space-between; font-size: 11px;\">\n                            <div>№: <strong>СЧ-2026-04-007</strong></div>\n                            <div>Дата: <strong>16.05.2026</strong></div>\n                        </div>\n                    </div>\n                    \n                    <!-- Информация об арендаторе и периоде -->\n                    <div style=\"margin-bottom: 10px;\">\n                        <table>\n                            <tr>\n                                <td style=\"width: 30%; background-color: #f8f9fa;\"><strong>Арендатор:</strong></td>\n                                <td style=\"width: 70%;\">Автомойка самообслуживания 3 пост</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Период:</strong></td>\n                                <td>Апрель 2026</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Площадь:</strong></td>\n                                <td>40 м²</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Вид деятельности:</strong></td>\n                                <td>Автомойка (коэфф. 1.5)</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Итоговый коэфф.:</strong></td>\n                                <td>2.70</td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Детализация по услугам -->\n                    <div class=\"section-header\">ДЕТАЛИЗАЦИЯ РАСЧЕТОВ</div>\n                    \n                    <table style=\"margin-bottom: 10px;\">\n                        <thead>\n                            <tr style=\"background-color: #e9ecef;\">\n                                <th style=\"width: 40%;\">Услуга</th>\n                                <th style=\"width: 30%;\">Расчет</th>\n                                <th style=\"width: 30%; text-align: right;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <!-- Электроэнергия -->\n                            \n                            <tr>\n                                <td>⚡ Электроэнергия</td>\n                                <td style=\"font-size: 10px;\">\n                                    845.06 кВт·ч × 10.7932 руб.<br>+ потери 10%\n                                </td>\n                                <td style=\"text-align: right;\">9.6 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Газоснабжение -->\n                            \n                            <tr>\n                                <td>🔥 Газоснабжение</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 4.46% от 40.6 тыс ₽\n                                </td>\n                                <td style=\"text-align: right;\">1.8 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Водоснабжение -->\n                            \n                            \n                            <!-- НДС -->\n                            \n                            <tr>\n                                <td>🏛️ НДС</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 4.46% от НДС РСО\n                                </td>\n                                <td style=\"text-align: right;\">831 ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Индивидуальные услуги -->\n                            \n                            \n                            <!-- Прочие расходы -->\n                            \n                            \n                            <!-- ИТОГО -->\n                            <tr style=\"background-color: #e9ecef; font-weight: bold;\">\n                                <td colspan=\"2\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"text-align: right; font-size: 12px; color: #2563eb;\">\n                                    12 221,34 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                    \n                    <!-- Краткая информация о расчетах -->\n                    <div class=\"section-header\">КРАТКИЕ СВЕДЕНИЯ О РАСЧЕТАХ</div>\n                    \n                    <div style=\"font-size: 10px; line-height: 1.4; margin-bottom: 10px;\">\n                        <p><strong>Электроэнергия:</strong> Потребление: 845.06 кВт·ч (с учетом потерь 10%)</p>\n                        <p><strong>Газоснабжение:</strong> Распределение по приведенной площади (40 м² × 2.70 = 108.00 м²)</p>\n                        <p><strong>НДС:</strong> Распределение из счетов РСО пропорционально приведенной площади</p>\n                        <p><strong>Сумма НДС в счете:</strong> 831 ₽ (6.8%)</p>\n                    </div>\n                    \n                    <!-- Подпись -->\n                    <div style=\"margin-top: 20px; padding-top: 10px; border-top: 1px solid #ddd; text-align: center;\">\n                        <table style=\"width: 100%; font-size: 10px;\">\n                            <tr>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (подпись)\n                                </td>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (расшифровка подписи)\n                                </td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Служебная информация (мелким шрифтом) -->\n                    <div style=\"margin-top: 10px; font-size: 8px; color: #666; text-align: center; border-top: 1px solid #eee; padding-top: 5px;\">\n                        Счет сформирован автоматически. Версия программы: 2.2.0<br>\n                        Дата формирования: 16.05.2026, 11:56:59\n                    </div>\n                </div>\n            "
+    },
+    {
+      "id": 1778921820343,
+      "tenantId": 8,
+      "month": 3,
+      "year": 2026,
+      "createdDate": "2026-05-16",
+      "totalAmount": 6162.72,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 3717.602162608106,
+        "gas": 1675.8193607004212,
+        "water": 0,
+        "individual": 0,
+        "vat": 769.2974210063497,
+        "other": 0
+      },
+      "calculationDetails": {
+        "electricity": {
+          "avgPrice": 10.793178010471205,
+          "totalAmount": 103074.85,
+          "totalVolume": 9550,
+          "meterInfo": true,
+          "currentReading": 23995,
+          "prevReading": 23690,
+          "consumption": 305,
+          "tenantConsumption": 305,
+          "directCost": 3291.9192931937177,
+          "lossShare": 425.6828694143884
+        },
+        "gas": {
+          "totalAmount": 40578.29,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 100,
+          "share": 0.04129842240026431,
+          "sharePercent": 4.129842240026431
+        },
+        "vat": {
+          "totalVAT": 18627.767752247753,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 100,
+          "share": 0.04129842240026431,
+          "sharePercent": 4.129842240026431,
+          "vatSource": "распределение НДС из счетов РСО"
+        }
+      },
+      "breakdown": "\n                <div class=\"compact-invoice\">\n                    <!-- Шапка счета -->\n                    <div style=\"text-align: center; margin-bottom: 10px; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        <h2 style=\"color: #2563eb; font-size: 14px; margin: 5px 0;\">СЧЕТ ЗА КОММУНАЛЬНЫЕ УСЛУГИ</h2>\n                        <div style=\"display: flex; justify-content: space-between; font-size: 11px;\">\n                            <div>№: <strong>СЧ-2026-04-008</strong></div>\n                            <div>Дата: <strong>16.05.2026</strong></div>\n                        </div>\n                    </div>\n                    \n                    <!-- Информация об арендаторе и периоде -->\n                    <div style=\"margin-bottom: 10px;\">\n                        <table>\n                            <tr>\n                                <td style=\"width: 30%; background-color: #f8f9fa;\"><strong>Арендатор:</strong></td>\n                                <td style=\"width: 70%;\">Магазин автозапчасти</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Период:</strong></td>\n                                <td>Апрель 2026</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Площадь:</strong></td>\n                                <td>100 м²</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Вид деятельности:</strong></td>\n                                <td>Офис (коэфф. 1)</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Итоговый коэфф.:</strong></td>\n                                <td>1.00</td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Детализация по услугам -->\n                    <div class=\"section-header\">ДЕТАЛИЗАЦИЯ РАСЧЕТОВ</div>\n                    \n                    <table style=\"margin-bottom: 10px;\">\n                        <thead>\n                            <tr style=\"background-color: #e9ecef;\">\n                                <th style=\"width: 40%;\">Услуга</th>\n                                <th style=\"width: 30%;\">Расчет</th>\n                                <th style=\"width: 30%; text-align: right;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <!-- Электроэнергия -->\n                            \n                            <tr>\n                                <td>⚡ Электроэнергия</td>\n                                <td style=\"font-size: 10px;\">\n                                    305.00 кВт·ч × 10.7932 руб.<br>+ потери 10%\n                                </td>\n                                <td style=\"text-align: right;\">3.7 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Газоснабжение -->\n                            \n                            <tr>\n                                <td>🔥 Газоснабжение</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 4.13% от 40.6 тыс ₽\n                                </td>\n                                <td style=\"text-align: right;\">1.7 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Водоснабжение -->\n                            \n                            \n                            <!-- НДС -->\n                            \n                            <tr>\n                                <td>🏛️ НДС</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 4.13% от НДС РСО\n                                </td>\n                                <td style=\"text-align: right;\">769 ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Индивидуальные услуги -->\n                            \n                            \n                            <!-- Прочие расходы -->\n                            \n                            \n                            <!-- ИТОГО -->\n                            <tr style=\"background-color: #e9ecef; font-weight: bold;\">\n                                <td colspan=\"2\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"text-align: right; font-size: 12px; color: #2563eb;\">\n                                    6 162,72 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                    \n                    <!-- Краткая информация о расчетах -->\n                    <div class=\"section-header\">КРАТКИЕ СВЕДЕНИЯ О РАСЧЕТАХ</div>\n                    \n                    <div style=\"font-size: 10px; line-height: 1.4; margin-bottom: 10px;\">\n                        <p><strong>Электроэнергия:</strong> Потребление: 305.00 кВт·ч (с учетом потерь 10%)</p>\n                        <p><strong>Газоснабжение:</strong> Распределение по приведенной площади (100 м² × 1.00 = 100.00 м²)</p>\n                        <p><strong>НДС:</strong> Распределение из счетов РСО пропорционально приведенной площади</p>\n                        <p><strong>Сумма НДС в счете:</strong> 769 ₽ (12.5%)</p>\n                    </div>\n                    \n                    <!-- Подпись -->\n                    <div style=\"margin-top: 20px; padding-top: 10px; border-top: 1px solid #ddd; text-align: center;\">\n                        <table style=\"width: 100%; font-size: 10px;\">\n                            <tr>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (подпись)\n                                </td>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (расшифровка подписи)\n                                </td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Служебная информация (мелким шрифтом) -->\n                    <div style=\"margin-top: 10px; font-size: 8px; color: #666; text-align: center; border-top: 1px solid #eee; padding-top: 5px;\">\n                        Счет сформирован автоматически. Версия программы: 2.2.0<br>\n                        Дата формирования: 16.05.2026, 11:56:59\n                    </div>\n                </div>\n            "
+    },
+    {
+      "id": 1778921820148,
+      "tenantId": 9,
+      "month": 3,
+      "year": 2026,
+      "createdDate": "2026-05-16",
+      "totalAmount": 18897.81,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 12295.998337732986,
+        "gas": 4524.712273891137,
+        "water": 0,
+        "individual": 0,
+        "vat": 2077.1030367171443,
+        "other": 0
+      },
+      "calculationDetails": {
+        "electricity": {
+          "avgPrice": 10.793178010471205,
+          "totalAmount": 103074.85,
+          "totalVolume": 9550,
+          "groupInfo": true,
+          "groupConsumption": 1530,
+          "tenantCoefficient": 2.7,
+          "totalCoefficient": 4,
+          "sharePercent": 67.5,
+          "tenantConsumption": 1032.75,
+          "directCost": 11146.654590314138,
+          "lossShare": 1149.3437474188486
+        },
+        "gas": {
+          "totalAmount": 40578.29,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 270,
+          "share": 0.11150574048071363,
+          "sharePercent": 11.150574048071363
+        },
+        "vat": {
+          "totalVAT": 18627.767752247753,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 270,
+          "share": 0.11150574048071363,
+          "sharePercent": 11.150574048071363,
+          "vatSource": "распределение НДС из счетов РСО"
+        }
+      },
+      "breakdown": "\n                <div class=\"compact-invoice\">\n                    <!-- Шапка счета -->\n                    <div style=\"text-align: center; margin-bottom: 10px; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        <h2 style=\"color: #2563eb; font-size: 14px; margin: 5px 0;\">СЧЕТ ЗА КОММУНАЛЬНЫЕ УСЛУГИ</h2>\n                        <div style=\"display: flex; justify-content: space-between; font-size: 11px;\">\n                            <div>№: <strong>СЧ-2026-04-009</strong></div>\n                            <div>Дата: <strong>16.05.2026</strong></div>\n                        </div>\n                    </div>\n                    \n                    <!-- Информация об арендаторе и периоде -->\n                    <div style=\"margin-bottom: 10px;\">\n                        <table>\n                            <tr>\n                                <td style=\"width: 30%; background-color: #f8f9fa;\"><strong>Арендатор:</strong></td>\n                                <td style=\"width: 70%;\">Автомойка самообслуживания 4-5 пост</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Период:</strong></td>\n                                <td>Апрель 2026</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Площадь:</strong></td>\n                                <td>100 м²</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Вид деятельности:</strong></td>\n                                <td>Автомойка (коэфф. 1.5)</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Итоговый коэфф.:</strong></td>\n                                <td>2.70</td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Детализация по услугам -->\n                    <div class=\"section-header\">ДЕТАЛИЗАЦИЯ РАСЧЕТОВ</div>\n                    \n                    <table style=\"margin-bottom: 10px;\">\n                        <thead>\n                            <tr style=\"background-color: #e9ecef;\">\n                                <th style=\"width: 40%;\">Услуга</th>\n                                <th style=\"width: 30%;\">Расчет</th>\n                                <th style=\"width: 30%; text-align: right;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <!-- Электроэнергия -->\n                            \n                            <tr>\n                                <td>⚡ Электроэнергия</td>\n                                <td style=\"font-size: 10px;\">\n                                    1032.75 кВт·ч × 10.7932 руб.<br>+ потери 10%\n                                </td>\n                                <td style=\"text-align: right;\">12.3 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Газоснабжение -->\n                            \n                            <tr>\n                                <td>🔥 Газоснабжение</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 11.15% от 40.6 тыс ₽\n                                </td>\n                                <td style=\"text-align: right;\">4.5 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Водоснабжение -->\n                            \n                            \n                            <!-- НДС -->\n                            \n                            <tr>\n                                <td>🏛️ НДС</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 11.15% от НДС РСО\n                                </td>\n                                <td style=\"text-align: right;\">2.1 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Индивидуальные услуги -->\n                            \n                            \n                            <!-- Прочие расходы -->\n                            \n                            \n                            <!-- ИТОГО -->\n                            <tr style=\"background-color: #e9ecef; font-weight: bold;\">\n                                <td colspan=\"2\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"text-align: right; font-size: 12px; color: #2563eb;\">\n                                    18 897,81 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                    \n                    <!-- Краткая информация о расчетах -->\n                    <div class=\"section-header\">КРАТКИЕ СВЕДЕНИЯ О РАСЧЕТАХ</div>\n                    \n                    <div style=\"font-size: 10px; line-height: 1.4; margin-bottom: 10px;\">\n                        <p><strong>Электроэнергия:</strong> Потребление: 1032.75 кВт·ч (с учетом потерь 10%)</p>\n                        <p><strong>Газоснабжение:</strong> Распределение по приведенной площади (100 м² × 2.70 = 270.00 м²)</p>\n                        <p><strong>НДС:</strong> Распределение из счетов РСО пропорционально приведенной площади</p>\n                        <p><strong>Сумма НДС в счете:</strong> 2.1 тыс ₽ (11.0%)</p>\n                    </div>\n                    \n                    <!-- Подпись -->\n                    <div style=\"margin-top: 20px; padding-top: 10px; border-top: 1px solid #ddd; text-align: center;\">\n                        <table style=\"width: 100%; font-size: 10px;\">\n                            <tr>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (подпись)\n                                </td>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (расшифровка подписи)\n                                </td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Служебная информация (мелким шрифтом) -->\n                    <div style=\"margin-top: 10px; font-size: 8px; color: #666; text-align: center; border-top: 1px solid #eee; padding-top: 5px;\">\n                        Счет сформирован автоматически. Версия программы: 2.2.0<br>\n                        Дата формирования: 16.05.2026, 11:56:59\n                    </div>\n                </div>\n            "
+    },
+    {
+      "id": 1778921820530,
+      "tenantId": 10,
+      "month": 3,
+      "year": 2026,
+      "createdDate": "2026-05-16",
+      "totalAmount": 8501.82,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 5831.753459107318,
+        "gas": 1829.9947418848599,
+        "water": 0,
+        "individual": 0,
+        "vat": 840.0727837389339,
+        "other": 0
+      },
+      "calculationDetails": {
+        "electricity": {
+          "avgPrice": 10.793178010471205,
+          "totalAmount": 103074.85,
+          "totalVolume": 9550,
+          "groupInfo": true,
+          "groupConsumption": 1530,
+          "tenantCoefficient": 1.3,
+          "totalCoefficient": 4,
+          "sharePercent": 32.5,
+          "tenantConsumption": 497.25,
+          "directCost": 5366.9077657068065,
+          "lossShare": 464.8456934005121
+        },
+        "gas": {
+          "totalAmount": 40578.29,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 109.2,
+          "share": 0.045097877261088624,
+          "sharePercent": 4.509787726108862
+        },
+        "vat": {
+          "totalVAT": 18627.767752247753,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 109.2,
+          "share": 0.045097877261088624,
+          "sharePercent": 4.509787726108862,
+          "vatSource": "распределение НДС из счетов РСО"
+        }
+      },
+      "breakdown": "\n                <div class=\"compact-invoice\">\n                    <!-- Шапка счета -->\n                    <div style=\"text-align: center; margin-bottom: 10px; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        <h2 style=\"color: #2563eb; font-size: 14px; margin: 5px 0;\">СЧЕТ ЗА КОММУНАЛЬНЫЕ УСЛУГИ</h2>\n                        <div style=\"display: flex; justify-content: space-between; font-size: 11px;\">\n                            <div>№: <strong>СЧ-2026-04-010</strong></div>\n                            <div>Дата: <strong>16.05.2026</strong></div>\n                        </div>\n                    </div>\n                    \n                    <!-- Информация об арендаторе и периоде -->\n                    <div style=\"margin-bottom: 10px;\">\n                        <table>\n                            <tr>\n                                <td style=\"width: 30%; background-color: #f8f9fa;\"><strong>Арендатор:</strong></td>\n                                <td style=\"width: 70%;\">Детейлинг 4-5 бокс</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Период:</strong></td>\n                                <td>Апрель 2026</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Площадь:</strong></td>\n                                <td>84 м²</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Вид деятельности:</strong></td>\n                                <td>Детейлинг мойка (коэфф. 1.3)</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Итоговый коэфф.:</strong></td>\n                                <td>1.30</td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Детализация по услугам -->\n                    <div class=\"section-header\">ДЕТАЛИЗАЦИЯ РАСЧЕТОВ</div>\n                    \n                    <table style=\"margin-bottom: 10px;\">\n                        <thead>\n                            <tr style=\"background-color: #e9ecef;\">\n                                <th style=\"width: 40%;\">Услуга</th>\n                                <th style=\"width: 30%;\">Расчет</th>\n                                <th style=\"width: 30%; text-align: right;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <!-- Электроэнергия -->\n                            \n                            <tr>\n                                <td>⚡ Электроэнергия</td>\n                                <td style=\"font-size: 10px;\">\n                                    497.25 кВт·ч × 10.7932 руб.<br>+ потери 10%\n                                </td>\n                                <td style=\"text-align: right;\">5.8 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Газоснабжение -->\n                            \n                            <tr>\n                                <td>🔥 Газоснабжение</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 4.51% от 40.6 тыс ₽\n                                </td>\n                                <td style=\"text-align: right;\">1.8 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Водоснабжение -->\n                            \n                            \n                            <!-- НДС -->\n                            \n                            <tr>\n                                <td>🏛️ НДС</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 4.51% от НДС РСО\n                                </td>\n                                <td style=\"text-align: right;\">840 ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Индивидуальные услуги -->\n                            \n                            \n                            <!-- Прочие расходы -->\n                            \n                            \n                            <!-- ИТОГО -->\n                            <tr style=\"background-color: #e9ecef; font-weight: bold;\">\n                                <td colspan=\"2\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"text-align: right; font-size: 12px; color: #2563eb;\">\n                                    8 501,82 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                    \n                    <!-- Краткая информация о расчетах -->\n                    <div class=\"section-header\">КРАТКИЕ СВЕДЕНИЯ О РАСЧЕТАХ</div>\n                    \n                    <div style=\"font-size: 10px; line-height: 1.4; margin-bottom: 10px;\">\n                        <p><strong>Электроэнергия:</strong> Потребление: 497.25 кВт·ч (с учетом потерь 10%)</p>\n                        <p><strong>Газоснабжение:</strong> Распределение по приведенной площади (84 м² × 1.30 = 109.20 м²)</p>\n                        <p><strong>НДС:</strong> Распределение из счетов РСО пропорционально приведенной площади</p>\n                        <p><strong>Сумма НДС в счете:</strong> 840 ₽ (9.9%)</p>\n                    </div>\n                    \n                    <!-- Подпись -->\n                    <div style=\"margin-top: 20px; padding-top: 10px; border-top: 1px solid #ddd; text-align: center;\">\n                        <table style=\"width: 100%; font-size: 10px;\">\n                            <tr>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (подпись)\n                                </td>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (расшифровка подписи)\n                                </td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Служебная информация (мелким шрифтом) -->\n                    <div style=\"margin-top: 10px; font-size: 8px; color: #666; text-align: center; border-top: 1px solid #eee; padding-top: 5px;\">\n                        Счет сформирован автоматически. Версия программы: 2.2.0<br>\n                        Дата формирования: 16.05.2026, 11:56:59\n                    </div>\n                </div>\n            "
+    },
+    {
+      "id": 1778921820468,
+      "tenantId": 11,
+      "month": 3,
+      "year": 2026,
+      "createdDate": "2026-05-16",
+      "totalAmount": 42832.24,
+      "paidAmount": 0,
+      "details": {
+        "electricity": 20667.51932444084,
+        "gas": 11764.251912116957,
+        "water": 0,
+        "individual": 5000,
+        "vat": 5400.467895464575,
+        "other": 0
+      },
+      "calculationDetails": {
+        "electricity": {
+          "avgPrice": 10.793178010471205,
+          "totalAmount": 103074.85,
+          "totalVolume": 9550,
+          "meterInfo": true,
+          "currentReading": 84967,
+          "prevReading": 83329,
+          "consumption": 1638,
+          "tenantConsumption": 1638,
+          "directCost": 17679.225581151833,
+          "lossShare": 2988.2937432890067
+        },
+        "gas": {
+          "totalAmount": 40578.29,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 702,
+          "share": 0.28991492524985546,
+          "sharePercent": 28.991492524985546
+        },
+        "individual": {
+          "bills": [
+            {
+              "typeName": "Вывоз ТКО",
+              "amount": 5000,
+              "description": "04.05 Вывоз контейнера"
+            }
+          ],
+          "total": 5000
+        },
+        "vat": {
+          "totalVAT": 18627.767752247753,
+          "totalWeightedArea": 2421.4,
+          "tenantWeightedArea": 702,
+          "share": 0.28991492524985546,
+          "sharePercent": 28.991492524985546,
+          "vatSource": "распределение НДС из счетов РСО"
+        }
+      },
+      "breakdown": "\n                <div class=\"compact-invoice\">\n                    <!-- Шапка счета -->\n                    <div style=\"text-align: center; margin-bottom: 10px; border-bottom: 2px solid #2563eb; padding-bottom: 10px;\">\n                        <h2 style=\"color: #2563eb; font-size: 14px; margin: 5px 0;\">СЧЕТ ЗА КОММУНАЛЬНЫЕ УСЛУГИ</h2>\n                        <div style=\"display: flex; justify-content: space-between; font-size: 11px;\">\n                            <div>№: <strong>СЧ-2026-04-011</strong></div>\n                            <div>Дата: <strong>16.05.2026</strong></div>\n                        </div>\n                    </div>\n                    \n                    <!-- Информация об арендаторе и периоде -->\n                    <div style=\"margin-bottom: 10px;\">\n                        <table>\n                            <tr>\n                                <td style=\"width: 30%; background-color: #f8f9fa;\"><strong>Арендатор:</strong></td>\n                                <td style=\"width: 70%;\">Автосервис</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Период:</strong></td>\n                                <td>Апрель 2026</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Площадь:</strong></td>\n                                <td>450 м²</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Вид деятельности:</strong></td>\n                                <td>Автосервис (коэфф. 1.2)</td>\n                            </tr>\n                            <tr>\n                                <td style=\"background-color: #f8f9fa;\"><strong>Итоговый коэфф.:</strong></td>\n                                <td>1.56</td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Детализация по услугам -->\n                    <div class=\"section-header\">ДЕТАЛИЗАЦИЯ РАСЧЕТОВ</div>\n                    \n                    <table style=\"margin-bottom: 10px;\">\n                        <thead>\n                            <tr style=\"background-color: #e9ecef;\">\n                                <th style=\"width: 40%;\">Услуга</th>\n                                <th style=\"width: 30%;\">Расчет</th>\n                                <th style=\"width: 30%; text-align: right;\">Сумма (руб.)</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                            <!-- Электроэнергия -->\n                            \n                            <tr>\n                                <td>⚡ Электроэнергия</td>\n                                <td style=\"font-size: 10px;\">\n                                    1638.00 кВт·ч × 10.7932 руб.<br>+ потери 10%\n                                </td>\n                                <td style=\"text-align: right;\">20.7 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Газоснабжение -->\n                            \n                            <tr>\n                                <td>🔥 Газоснабжение</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 28.99% от 40.6 тыс ₽\n                                </td>\n                                <td style=\"text-align: right;\">11.8 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Водоснабжение -->\n                            \n                            \n                            <!-- НДС -->\n                            \n                            <tr>\n                                <td>🏛️ НДС</td>\n                                <td style=\"font-size: 10px;\">\n                                    Доля 28.99% от НДС РСО\n                                </td>\n                                <td style=\"text-align: right;\">5.4 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Индивидуальные услуги -->\n                            \n                            <tr>\n                                <td>📋 Индивидуальные услуги</td>\n                                <td style=\"font-size: 10px;\">\n                                    1 услуг\n                                </td>\n                                <td style=\"text-align: right;\">5.0 тыс ₽</td>\n                            </tr>\n                            \n                            \n                            <!-- Прочие расходы -->\n                            \n                            \n                            <!-- ИТОГО -->\n                            <tr style=\"background-color: #e9ecef; font-weight: bold;\">\n                                <td colspan=\"2\">ИТОГО К ОПЛАТЕ:</td>\n                                <td style=\"text-align: right; font-size: 12px; color: #2563eb;\">\n                                    42 832,24 руб.\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                    \n                    <!-- Краткая информация о расчетах -->\n                    <div class=\"section-header\">КРАТКИЕ СВЕДЕНИЯ О РАСЧЕТАХ</div>\n                    \n                    <div style=\"font-size: 10px; line-height: 1.4; margin-bottom: 10px;\">\n                        <p><strong>Электроэнергия:</strong> Потребление: 1638.00 кВт·ч (с учетом потерь 10%)</p>\n                        <p><strong>Газоснабжение:</strong> Распределение по приведенной площади (450 м² × 1.56 = 702.00 м²)</p>\n                        <p><strong>НДС:</strong> Распределение из счетов РСО пропорционально приведенной площади</p>\n                        <p><strong>Сумма НДС в счете:</strong> 5.4 тыс ₽ (12.6%)</p>\n                    </div>\n                    \n                    <!-- Подпись -->\n                    <div style=\"margin-top: 20px; padding-top: 10px; border-top: 1px solid #ddd; text-align: center;\">\n                        <table style=\"width: 100%; font-size: 10px;\">\n                            <tr>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (подпись)\n                                </td>\n                                <td style=\"width: 50%; text-align: center; padding-top: 30px;\">\n                                    _____________________<br>\n                                    (расшифровка подписи)\n                                </td>\n                            </tr>\n                        </table>\n                    </div>\n                    \n                    <!-- Служебная информация (мелким шрифтом) -->\n                    <div style=\"margin-top: 10px; font-size: 8px; color: #666; text-align: center; border-top: 1px solid #eee; padding-top: 5px;\">\n                        Счет сформирован автоматически. Версия программы: 2.2.0<br>\n                        Дата формирования: 16.05.2026, 11:56:59\n                    </div>\n                </div>\n            "
     }
   ],
   "activityTypes": [
@@ -2539,7 +3065,7 @@
     "defaultVATPercent": 0.1
   },
   "_meta": {
-    "lastSync": "2026-05-16T08:56:55.009Z",
+    "lastSync": "2026-05-16T08:56:59.633Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
