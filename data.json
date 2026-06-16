@@ -1,5 +1,5 @@
 {
-  "currentMonth": 1,
+  "currentMonth": 0,
   "currentYear": 2026,
   "tenants": [
     {
@@ -3645,7 +3645,7 @@
     "defaultVATPercent": 0.1
   },
   "_meta": {
-    "lastSync": "2026-06-16T09:29:14.154Z",
+    "lastSync": "2026-06-16T09:29:18.711Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
