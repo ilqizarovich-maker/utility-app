@@ -1,5 +1,5 @@
 {
-  "currentMonth": 5,
+  "currentMonth": 6,
   "currentYear": 2026,
   "tenants": [
     {
@@ -437,6 +437,11 @@
       }
     },
     "2026-5": {
+      "electricity": {},
+      "water": {},
+      "groups": {}
+    },
+    "2026-6": {
       "electricity": {},
       "water": {},
       "groups": {}
@@ -3650,7 +3655,7 @@
     "defaultVATPercent": 0.1
   },
   "_meta": {
-    "lastSync": "2026-07-15T08:39:01.840Z",
+    "lastSync": "2026-07-15T08:39:10.660Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
