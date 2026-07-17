@@ -1,5 +1,5 @@
 {
-  "currentMonth": 3,
+  "currentMonth": 4,
   "currentYear": 2026,
   "tenants": [
     {
@@ -2665,7 +2665,7 @@
       "year": 2026,
       "createdDate": "2026-05-16",
       "totalAmount": 2641.14,
-      "paidAmount": 0,
+      "paidAmount": 2641.14,
       "details": {
         "electricity": 391.62823986123726,
         "gas": 1541.7538118443874,
@@ -4206,7 +4206,7 @@
     "defaultVATPercent": 0.1
   },
   "_meta": {
-    "lastSync": "2026-07-17T17:31:36.093Z",
+    "lastSync": "2026-07-17T17:32:04.775Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
