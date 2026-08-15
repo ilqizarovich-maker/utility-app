@@ -384,7 +384,7 @@
       "type": "electricity",
       "amount": 117141.08,
       "vatAmount": 21123.8,
-      "volume": 0,
+      "volume": 10.8,
       "unit": "ед.",
       "description": "",
       "month": 6,
@@ -4631,7 +4631,7 @@
     "defaultVATPercent": 0.1
   },
   "_meta": {
-    "lastSync": "2026-08-15T16:53:22.161Z",
+    "lastSync": "2026-08-15T16:53:39.208Z",
     "version": "2.2.0",
     "userId": "user_x8b0dkd08_1768137626932",
     "storageMode": "github"
